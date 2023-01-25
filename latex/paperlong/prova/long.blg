@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: long.aux
+The style file: JHEP.bst
+Database file #1: long.bib
+Warning--empty author in ATLAS:2018gqq
+You've used 141 entries,
+            2217 wiz_defined-function locations,
+            1608 strings with 31717 characters,
+and the built_in function-call counts, 45740 in all, are:
+= -- 4759
+> -- 1859
+< -- 0
++ -- 543
+- -- 402
+* -- 4099
+:= -- 6298
+add.period$ -- 140
+call.type$ -- 141
+change.case$ -- 139
+chr.to.int$ -- 0
+cite$ -- 142
+duplicate$ -- 2251
+empty$ -- 3933
+format.name$ -- 402
+if$ -- 11882
+int.to.chr$ -- 0
+int.to.str$ -- 141
+missing$ -- 539
+newline$ -- 427
+num.names$ -- 139
+pop$ -- 248
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1824
+stack$ -- 0
+substring$ -- 2273
+swap$ -- 1180
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 363
+width$ -- 144
+write$ -- 1470
+(There was 1 warning)

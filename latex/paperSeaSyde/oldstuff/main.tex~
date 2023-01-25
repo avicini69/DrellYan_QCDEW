@@ -1,0 +1,221 @@
+\documentclass[11pt,a4paper]{article}
+
+
+% ************** Used Packages **************
+
+\RequirePackage{ifpdf} 
+\usepackage{amsmath} 
+\usepackage{mathtools}
+
+\usepackage{jheppub}
+\usepackage{pstricks}
+\usepackage[final]{pdfpages} 
+\usepackage{ifpdf} 
+\usepackage{slashed}
+%\usepackage{ulem}
+\usepackage{hyperref}
+
+\usepackage{color} 
+\usepackage{graphics}
+
+\usepackage{etoolbox} 
+\usepackage{fixmath}
+
+%\usepackage{Style/notoccite} 
+% \usepackage{caption} 
+% \usepackage{subcaption} 
+\usepackage{amsfonts}
+
+%\usepackage{multirow}
+\usepackage{epstopdf}
+\usepackage[compat=1.1.0]{tikz-feynman}
+\usepackage{environ}
+\NewEnviron{eq}{%
+\begin{equation}\begin{split}
+  \BODY
+\end{split}\end{equation}
+}
+
+% For making math symbol large: \mathlarger
+%\usepackage{relsize}
+%\usepackage{cancel}
+%\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage{framed}
+
+%% %\usepackage[utf8]{inputenc}
+%% %\usepackage[normalem]{ulem}
+
+%% \usepackage{tikz}
+%% \usetikzlibrary{positioning,arrows}
+%% \usetikzlibrary{decorations.pathmorphing}
+%% \usetikzlibrary{decorations.markings}
+%% \usetikzlibrary{shapes.geometric}
+%% \usepackage{endnotes}
+%% %\usepackage{pgflibraryarrows}
+%% %\usepackage{pgflibrarysnakes}
+%% \tikzset{
+%% 	% >=stealth', %%  Uncomment for more conventional arrows
+%%     vector/.style={decorate, decoration={snake}, draw},
+%%     provector/.style={decorate, decoration={snake,amplitude=2.5pt}, draw},
+%%     antivector/.style={decorate, decoration={snake,amplitude=-2.5pt}, draw},
+%%     fermion/.style={draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{>}}}}, 
+%%     fermionbar/.style={draw=black, postaction={decorate},
+%%                        decoration={markings,mark=at position .55 with {\arrow[draw=black]{<}}}},
+%%     fermionnoarrow/.style={draw=black},
+%%     gluon/.style={decorate, draw=black,decoration={coil,amplitude=4pt, segment length=6pt}},
+%%     scalar/.style={dashed,draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{>}}}}, 
+%%     scalarbar/.style={dashed,draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{<}}}}, 
+%%     scalarnoarrow/.style={dashed,draw=black},
+%%     electron/.style={draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{>}}}}, 
+%%     bigvector/.style={decorate, decoration={snake,amplitude=4pt}, draw},
+%% } 
+
+%% \newcommand{\dd}{\draw}
+%% % \newcommand{\nn}{\node}
+%% \newcommand{\Poincare}{Poincar\'e\xspace}
+
+\newcommand{\ep}{\epsilon}
+
+\newcommand{\DD}{{\cal D}}
+\newcommand{\nn}{\nonumber\\&}
+% \newcommand{\D2}{${\cal D}_2$}
+% \newcommand{\D3}{${\cal D}_3$}
+
+\newcommand{\zb}{\bar{z}}
+\newcommand{\zbb}{\bar{\bar{z}}}
+\newcommand{\zbf}{\hat{\bar{z}}}
+\newcommand{\zt}{\tilde{z}}
+\newcommand{\ztt}{\tilde{\tilde{z}}}
+\newcommand{\ztf}{\hat{\tilde{z}}}
+
+\newcommand{\xxm}{\bar{t}}
+\newcommand{\xxp}{\tilde{t}}
+\newcommand{\xxt}{{\check{t}}}
+\newcommand{\xxh}{\hat{\tilde{t}}}
+
+\newcommand{\xyb}{\bar{w}}
+\newcommand{\xyt}{\tilde{w}}
+
+\newcommand{\rb}{\bar{\rho}}
+\newcommand{\rrt}{\hat{\rho}}
+
+\newcommand{\itwo}{i_2}
+\newcommand{\mione}{i_1}
+
+\newcommand{\GI}{G_I}
+\newcommand{\sw}{s_{\scriptscriptstyle W}}
+\newcommand{\cw}{c_{\scriptscriptstyle W}}
+
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\smallw}{{\scriptscriptstyle W}}
+\newcommand{\mt}{m_t} 
+\newcommand{\mw}{m_\smallw} 
+\newcommand{\mwsq}{m_\smallw^2} 
+\newcommand{\mwc}{m_{\smallw 0}}
+\newcommand{\smallz}{{\scriptscriptstyle Z}}
+\newcommand{\mz}{m_\smallz} 
+\newcommand{\mzsq}{m_\smallz^2} 
+\newcommand{\mzc}{m_{\smallz 0}} 
+\newcommand{\oa}{${\cal O}(\alpha)$\,} 
+\newcommand{\oas}{${\cal O}(\alpha_s)$\,} 
+\newcommand{\oasas}{${\cal O}(\alpha_s^2)$\,} 
+\newcommand{\oaa}{${\cal O}(\alpha^2)$\,} 
+\newcommand{\oaas}{${\cal O}(\alpha\alpha_s)$\,} 
+\newcommand{\sineffl}{\sin\theta_{eff}^{\ell}\,}
+\newcommand{\coseffl}{\cos\theta_{eff}^{\ell}\,}
+\newcommand{\seffl}{\sin^2\theta_{eff}^{\ell}\,}
+\newcommand{\ceffl}{\cos^2\theta_{eff}^{\ell}\,}
+\newcommand{\eps}{\varepsilon} 
+\newcommand{\muf}{\mu_F}
+\newcommand{\mur}{\mu_R}
+\newcommand{\sinw}{\sin\theta_W}
+\newcommand{\cosw}{\cos\theta_W}
+\newcommand{\swtwo}{\sin^2\theta_W}
+\newcommand{\swfour}{\sin^4\theta_W}
+\newcommand{\cwtwo}{\cos^2\theta_W}
+
+\newcommand{\av}[1]{{\color{red} {#1}}}
+\newcommand{\nr}[1]{{\color{blue} #1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Evaluation of Feynman integrals with arbitrary complex masses via series expansions.}
+
+\author[a]{Tommaso Armadillo,}
+\author[b]{Roberto Bonciani,}
+\author[a, c]{Simone Devoto,}
+\author[a, c, d]{Narayan Rana,}
+\author[a, c]{Alessandro Vicini}
+
+\affiliation[a]{Dipartimento di Fisica ``Aldo Pontremoli'', University of Milano, Via Celoria 16, 20133 Milano, Italy}
+\affiliation[b]{Dipartimento di Fisica, Universit\`{a} di Roma ``La Sapienza'' and INFN Sezione di Roma, Piazzale Aldo Moro 5, I-00185 Roma, Italy}
+\affiliation[c]{INFN Sezione di Milano, Via Celoria 16, 20133 Milano, Italy}
+\affiliation[d]{Institute of Physics, Kanpur }
+
+
+\emailAdd{tommaso.armadillo@studenti.unimi.it}
+\emailAdd{roberto.bonciani@roma1.infn.it}
+\emailAdd{simone.devoto@unimi.it}
+\emailAdd{narayan.rana@unimi.it}
+\emailAdd{alessandro.vicini@mi.infn.it}
+
+
+% ********** Abstract **********
+
+\abstract{We present an algorithm to evaluate multiloop Feynman integrals
+  with an arbitrary number of internal massive lines,
+  with the masses being in general complex valued.
+  The implementation solves by series expansions the system of differential
+  equations satisfied by the Feynman integrals.
+  At variance with respect to previous codes,
+  the analytical continuation of the solution is possible
+  in the whole complex plane associated to each kinematical invariant.
+  We present the results of the evaluation of the Master Integrals
+  relevant for the NNLO QCD-EW corrections to
+  the neutral- and charged-current Drell-Yan processes.}
+
+
+
+\colorlet{shadecolor}{gray!14}
+
+
+\begin{document}
+
+\preprint{\quad Tif}
+\keywords{Radiative corrections, Loop integrals}
+
+\allowdisplaybreaks[4]
+\unitlength1cm
+\maketitle
+\flushbottom
+%\let\footnote=\endnote
+%\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+%%%%% 
+\input{intro}
+\input{seriesexpansion}
+\input{analcont}
+\input{package}
+\input{result}
+\input{conclusion}
+\appendix
+\input{documentation}
+\clearpage
+
+\bibliography{main} 
+\bibliographystyle{JHEP}
+
+\end{document}

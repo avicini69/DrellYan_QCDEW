@@ -1,0 +1,87 @@
+Dear Editor,
+we would like to thank the Referee for her/his comments,
+which have been helpful to correct and improve the paper.
+We answer in detail to all the points in the following.
+We implemented all the requested changes and
+we hope that with these modification the paper is now suitable
+for publication on JHEP.
+
+
+
+
+1.
+We thank the referee for pointing out a mistake of our writing.
+In our calculation we computed explicitly and separately
+the uubar and ddbar channels.
+We repeated the calculation with two distinct codes generating the Feynman amplitudes and,
+after the relevant manipulations, we found perfect agreement.
+
+When describing the generation of the amplitude,
+we overlooked the possible problem with the WW boxes and we gave a misleading
+recipe.
+We corrected the text specifying what we actually did and describing in a correct way how the uubar and ddbar amplitudes are related.
+
+
+2.
+We corrected the text according to the referee request.
+
+3.
+At page 7, we point the reader to ref.[79] for the complex mass scheme.
+
+4.
+The question asked by the referee is twofold.
+a)
+The one-loop expressions have been generated in two completely independent ways relying on QGRAF and on FeynArts, with perfect agreement, separately for uubar and ddbar channels as already commented for point 1. .
+b)
+When discussing the 1-loop boxes, the relevance of the complex mass scheme emerges,
+because of the presence of a threshold at 2 MV, being MV the mass of the gauge boson (W or Z).
+We have expressed the 1-loop integrals in terms of GPLs or via A,B,C, and D scalar integral functions.
+We have used GiNaC to evaluate the GPLs and Looptools for the A,B,C,D scalar functions.
+For the epsilon^0 contribution in dimensional regularization, we can compare
+the two evaluations finding perfect agreement with each other, with both real and complex masses;
+we can also evaluate the scalar massive box via series expansion
+and also in this case we find perfect agreement;
+we studied the dependence of these functions on the value of the gauge boson decay width, finding a regular behaviour.
+
+5. and 6.
+The results of the code which performs the series expansion has been compared
+with PySecDec in the non-physical euclidean region, where PySecDec provides
+precise results. We found perfect agreement within the numerical uncertainty affecting the PySecDec results.
+In the physical region PySecDec has convergence problems.
+With real masses we performed a detailed comparison of our code against DiffExp for all the 36 integrals
+and agreement at the 10^-12 has been found.
+With complex masses we compared our code with with Ginac the 31 integrals expressed in terms of GPLs
+and agreement at the 10^-12 has been found.
+The value of the last 5 integrals with complex masses is a prediction.
+Given the exact boundary conditions, the solution via series expansion provides an analytical prediction, not in closed form,
+with an arbitrary number of significant digits.
+
+7.
+The hard virtual coefficient function H has been evaluated in 3250 points and
+those are used as starting point for interpolation.
+The binning is finer around the Z resonance and coarser in the high mass tail;
+it is uniform with respect to the scattering angle.
+The evaluation of H at any intermediate point is achieved via linear interpolation of the grid values and the relative discrepancy compared to the exact result is smaller than 0.001  (??),
+understandable given the smoothness of the correction and the binning adapted to the NLO behaviour of the distribution.
+
+8.
+The numerical evaluation of the Master Integrals requires a fixed overhead
+to move from the euclidean to the physical region, of order 6000 s.
+The following evaluation of one additional point requires a time of order 250s
+
+Once the grid of the Master Integral values is ready,
+the evaluation of one point of the function H takes a time of order XXX s.
+
+Once the grid for the function H is ready, quering the interpolation function
+takes 0.001 s.
+
+9.
+We have already provided with the first submission a full grid of values,
+useful as benchmarks as suggested by the Referee.
+
+10.
+We provide in the text the requested values.
+
+
+
+

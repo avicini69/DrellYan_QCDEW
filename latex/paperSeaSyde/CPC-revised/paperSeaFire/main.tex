@@ -1,0 +1,87 @@
+\documentclass[final,1p,times]{elsarticle}
+%\documentclass[12pt,a4paper]{article}
+
+\usepackage{lineno,hyperref}
+\usepackage{tabularx}
+\usepackage{fancyvrb}
+\usepackage{textgreek}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{comment}
+%\usepackage{biblatex}
+%\usepackage{cite}
+
+\modulolinenumbers[5]
+\journal{CPC}
+
+%\bibliographystyle{UTPstyle}
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\mi}{\mathcal{T}}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{J}[1]{>{\arraybackslash}p{#1}}
+
+\renewcommand{\theFancyVerbLine}{\textsuperscript{\arabic{FancyVerbLine}}}
+\renewcommand{\theFancyVerbLine}{\textsubscript{\arabic{FancyVerbLine}}}
+\renewcommand{\theFancyVerbLine}{\varepsilon}
+
+\def\cD{{\cal D}}
+
+\begin{frontmatter}
+
+\title{Evaluation of Feynman integrals with arbitrary complex masses via series expansions}
+
+\author[a,b]{Tommaso Armadillo}\ead{tommaso.armadillo@uclouvain.be}
+\author[c,d]{Roberto Bonciani}\ead{roberto.bonciani@roma1.infn.it}
+\author[b,e]{Simone Devoto}\ead{simone.devoto@unimi.it}
+\author[b,e,f]{Narayan Rana}\ead{narayan@iitk.ac.in}
+\author[b,e]{Alessandro Vicini}\ead{alessandro.vicini@mi.infn.it}
+
+\address[a]{Centre for Cosmology, Particle Physics and Phenomenology (CP3),
+Universit\'{e} Catholique de Louvain, Chemin du Cyclotron, B-1348 Louvain la Neuve, Belgium}
+\address[b]{Dipartimento di Fisica ``Aldo Pontremoli'', University of Milano, Via Celoria 16, I-20133 Milano, Italy}
+\address[c]{Dipartimento di Fisica, Universit\`{a} di Roma ``La Sapienza'', Piazzale Aldo Moro 5, I-00185 Roma, Italy}
+\address[d]{INFN Sezione di Roma, Piazzale Aldo Moro 5, I-00185 Roma, Italy}
+\address[e]{INFN Sezione di Milano, Via Celoria 16, I-20133 Milano, Italy}
+\address[f]{Department of Physics, Indian Institute of Technology Kanpur, 208016 Kanpur, India}
+
+
+% ********** Abstract **********
+
+\begin{abstract}
+  We present an algorithm to evaluate multiloop Feynman integrals
+  with an arbitrary number of internal massive lines,
+  with the masses being in general complex-valued, and its implementation in the \textsc{Mathematica} package \textsc{SeaSyde}.
+  The implementation solves by series expansions
+  the system of differential equations
+  satisfied by the Master Integrals.
+  At variance with respect to other existing codes,
+  the analytical continuation of the solution is performed
+  in the complex plane associated to each kinematical invariant.
+  We present the results of the evaluation of the Master Integrals
+  relevant for the NNLO QCD-EW corrections to
+  the neutral-current Drell-Yan processes.
+\end{abstract}
+
+\end{frontmatter}
+
+\input{intro}
+\input{seriesexpansion}
+\input{result}
+\input{conclusion}
+\appendix
+\input{documentation}
+\input{bcs}
+
+\bibliography{main.bib}
+
+\end{document}

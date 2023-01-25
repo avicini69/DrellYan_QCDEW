@@ -1,0 +1,160 @@
+************************************************************************
+**   Two-loop mixed EW QCD corrections to neutral current Drell-Yan   **
+**  Roberto Bonciani, Simone Devoto, Narayan Rana, Alessandro Vicini  **
+************************************************************************
+
+
+alpha : electro-magnetic coupling constant
+alphas : strong coupling constant
+
+aem = alpha/4/pi  = e^2/16/pi^2
+asr = alphas/4/pi = gs^2/16/pi^2
+
+borncf = N_C = 3
+Cf = C_F = 4/3
+gA4 = e^4 
+Qu = 2/3
+Qd =-1/3
+Ql =-1
+
+
+
+************************************************************************
+**                                                             Masses **
+
+ml = 0.105658369;
+ml2 = ml^2;
+
+mmz = 91.15348061918276;
+mmw = 80.35797360987756;
+GamZ = 2.4942663787728243;
+GamW = 2.0842989982782196;
+
+mZ2 = mmz^2-I*GamZ*mmz;
+mZC2 = mmz^2+I*GamZ*mmz;
+mW2 = mmw^2-I*GamW*mmw;
+mWC2 = mmw^2+I*GamW*mmw;
+
+mZ = sqrt(mZ2);
+mZC = sqrt(mZC2);
+mW = sqrt(mW2);
+mWC = sqrt(mWC2);
+
+cw = mW/mZ;
+cwC = mWC/mZC;
+sw = sqrt(1.0-cw^2);
+swC = sqrt(1.0-cwC^2);
+
+
+
+gVu = 1/4 - 2*sw^2/3;   gAu = 1/4;
+gVuC= 1/4 - 2*swC^2/3;  gAuC= 1/4;
+gVd =-1/4 + sw^2/3;     gAd =-1/4;
+gVdC=-1/4 + swC^2/3;    gAdC=-1/4;
+gVl =-1/4 + sw^2;       gAl =-1/4;
+gVlC=-1/4 + swC^2;      gAlC=-1/4;
+gVn = 1/4;              gAn = 1/4;
+gVnC= 1/4;              gAnC= 1/4;
+
+
+
+************************************************************************
+**                                                          Constants **
+
+pi = 3.1415926535897932384626433832795028841971693993751;
+IPi = I*3.1415926535897932384626433832795028841971693993751;
+z2 = 1.6449340668482264364724151666460251892189499012068;
+z3 = 1.2020569031595942853997381615114499907649862923405;
+
+c  = 1/2 + I*sqrt(3)/2;
+cb = 1/2 - I*sqrt(3)/2;
+
+
+************************************************************************
+**                                                          Variables **
+
+cBpropml = ml2/(s-mZC2);
+cBpropmZ = mZ2/(s-mZC2);
+cBpropmW = mW2/(s-mZC2);
+
+
+s = (p1+p2)^2; t = (p1-p3)^2; u = (p2-p3)^2;
+
+xrl = -(s/ml2) = (1-xl)^2/xl; yl = -(t/ml2); zl = -(u/ml2);
+xrZ = -(s/mZ2) = (1-xZ)^2/xZ; yZ = -(t/mZ2) = xZ/vZ*(1+vZ)^2/(1+xZ^2); zZ = -(u/mZ2) = xZ/vpZ*(1+vpZ)^2/(1+xZ^2);
+xrW = -(s/mW2) = (1-xW)^2/xW; yW = -(t/mW2) = xW/vW*(1+vW)^2/(1+xW^2); zW = -(u/mW2) = xW/vpW*(1+vpW)^2/(1+xW^2);
+
+isqvz = I*sqrt(vZ); isqvpz = I*sqrt(vpZ);
+isqvw = I*sqrt(vW); isqvpw = I*sqrt(vpW);
+
+
+
+************************************************************************
+**                                    Symbol for the master integrals **
+
+B16z[0, 1, 1, 1, 0, 1, 1, 0, 1] = Sum[ B16z[I32,n]*ep^n, {n,-4,0}];
+B16z[1, 1, 1, 1, 0, 1, 1, 0, 1] = Sum[ B16z[I33,n]*ep^n, {n,-4,0}];
+B16z[1, 1, 1, 1, 0, 1, 1, −1, 1] = Sum[ B16z[I35,n]*ep^n, {n,-4,0}];
+B16z[1, 1, 1, 1, −1, 1, 1, −1, 1] = Sum[ B16z[I36,n]*ep^n, {n,-4,0}];
+
+B16zp[0, 1, 1, 1, 0, 1, 1, 0, 1] = Sum[ B16zp[I32,n]*ep^n, {n,-4,0}];
+B16zp[1, 1, 1, 1, 0, 1, 1, 0, 1] = Sum[ B16zp[I33,n]*ep^n, {n,-4,0}];
+B16zp[1, 1, 1, 1, 0, 1, 1, −1, 1] = Sum[ B16zp[I35,n]*ep^n, {n,-4,0}];
+B16zp[1, 1, 1, 1, −1, 1, 1, −1, 1] = Sum[ B16zp[I36,n]*ep^n, {n,-4,0}];
+
+B16wp[0, 1, 1, 1, 0, 1, 1, 0, 1] = Sum[ B16wp[I32,n]*ep^n, {n,-4,0}];
+B16wp[1, 1, 1, 1, 0, 1, 1, 0, 1] = Sum[ B16wp[I33,n]*ep^n, {n,-4,0}];
+B16wp[1, 1, 1, 1, 0, 1, 1, −1, 1] = Sum[ B16wp[I35,n]*ep^n, {n,-4,0}];
+B16wp[1, 1, 1, 1, −1, 1, 1, −1, 1] = Sum[ B16wp[I36,n]*ep^n, {n,-4,0}];
+
+A16z[1, 1, 1, 1] = Sum[ A16z[I6,n]*ep^n, {n,0,2}];
+A16zp[1, 1, 1, 1] = Sum[ A16zp[I6,n]*ep^n, {n,0,2}];
+A16wp[1, 1, 1, 1] = Sum[ A16wp[I6,n]*ep^n, {n,0,2}];
+
+
+
+************************************************************************
+**                                           Description of the files **
+
+bareNCDY.m : 
+             It contains the unrenormalised matrix elements of the vertex and box corrections in terms of the MIs 
+             with the corresponding rational coefficients schematically described in eq. (3.10).
+             It is a list with two elements. The first element is the total contributions from \gamma\gamma subset 
+             and the Feynman diagrams with a tree level Z propagator in the \gamma Z subset, which must be treated
+             considering massive leptons, both in the kinematics and the IBP reductions.
+             The second element is the total contributions from the rests. 
+             Note that, it also contains the coupling constants.
+
+
+NCDY_ME11.m : 
+             It contains the IR subtracted and UV renormalised, matrix elements of the vertex and box corrections. 
+             The subtraction of the IR poles has been performed using eq. (5.1). The self-energy contributions are
+             separately UV finite and already available in the literature. Hence, they are not included here.
+             the result is in terms of GPLs with argument 1 (one) & 27 symbols. The symbols denote ep coefficients
+             of the 5 master integrals in eq. (5.2) for deifferent integral families B16z, B16zp and B16wp.  There
+             are also symbols which denote the ep coefficient of the one-loop box integral with two massive lines.  
+             
+             The result has been presented in the small lepton mass limit i.e. all terms which vanish in the limit 
+             ml -> 0, have been dropped. 
+
+
+ME11_partml_exact.m :
+             The part of the result ( the first element of bareNCDY.m ), which must be treated considering massive
+             leptons, has been obtained with the exact dependence of the lepton mass.  We also present this result
+             in    H11_partml_exact.m.
+
+
+gridsth.m :  
+             It contains our chosen set of values for the sqrt(s) and cos \theta.
+
+
+uU_totaldelta_vertbox.dat :
+             The grid contains the IR subtracted UV renormalised hard function 2*Re[<M0|M11fin>] due to the vertex 
+             and box corrections present in NCDY_ME11.m, NORMALISED by <M0|M0> & also subtracted of the logarithms 
+             of the lepton mass, for up-type quark initiated (u ubar) channel. 
+             The numerical evaluation has been performed for 130x25 points in (sqrt(s), cos \theta). Note that, it
+             has been expressed in units of (alpha/pi)*(alphas/pi).
+
+
+
+

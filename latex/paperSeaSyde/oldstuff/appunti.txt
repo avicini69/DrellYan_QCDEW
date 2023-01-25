@@ -1,0 +1,11 @@
+The code presented in this paper solves 
+the system of differential equations 
+satisfied by the the Master Integrals.
+The solution algorithm relies on five main remarks:
+1) uniqueness of the analytic continuation;
+2) explicit prescription for the independent variables, 
+   which are in general complex valued;
+3) identification of all the logarithmic singularity of the solution;
+4) algorithmic assignment of the cuts associated to the logarithmic behaviour;
+5) algorithmic identification of a simply connected path, 
+   which connects the BC and evaluation points, avoiding all the cuts of point 4).

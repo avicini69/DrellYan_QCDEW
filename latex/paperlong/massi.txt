@@ -1,0 +1,38 @@
+Dear all,
+
+thanks again for all your useful comments. 
+We went through them together, implementing most of them,
+and we submitted tonight a revised version of the manuscript to the arXiv.
+
+The new version of the paper discusses the IR subtraction
+on a more general ground.
+We then introduce only the subtraction operator in the qt-subtraction formalism,
+for the sake of definiteness.
+
+
+Two of your comments have been overlooked, but only temporarily.
+
+We did not present further details of our implementation of DiffExp
+with complex masses, as Luca suggested.
+This is because we are planning to have a dedicated publication
+in the near future,
+that now has been added as a reference “in preparation”.
+
+The comment by Stefan regarding different input values or input schemes,
+instead, is more cumbersome than it might seem.
+The presence of multiple mass scales in the amplitude
+can not be handled by a simple rescaling of the kinematical variables,
+as it is the case, e.g., for top pair production.
+The reader could use, in principle, the formulae in the ancillary files
+to recompute the grid with any possible value of the input parameters.
+The semianalytical evaluation of the 5 Master Integrals
+is clearly quite demanding.
+In any case, since we are providing the explicit results,
+we are formally on the safe side if someone asks.
+
+On the other hand, it could be a more practical solution to test the accuracy
+of an interpolation procedure with respect to different values
+of the input parameters.
+This is something that we need to test,
+also in view of our common future phenomenological studies.
+

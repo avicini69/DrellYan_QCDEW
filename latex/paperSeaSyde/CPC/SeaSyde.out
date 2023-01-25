@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The solution algorithm}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Solving differential equations by series expansion}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Singularities and branch cuts}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Choice of the path}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Solving a system of differential equations}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Two-loop MIs for the neutral-current Drell-Yan}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Master integrals for the mixed EW-QCD corrections to the neutral-current Drell-Yan}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Feynman integrals with complex-valued masses}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Checks and performances}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Conclusions}{}% 11
+\BOOKMARK [1][-]{appendix.A}{Package documentation}{}% 12
+\BOOKMARK [1][-]{appendix.B}{Exact boundary conditions}{}% 13

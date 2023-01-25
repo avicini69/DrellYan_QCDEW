@@ -1,0 +1,117 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.30)  19 MAY 2022 17:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**vicini-lathuile2022.tex
+(./vicini-lathuile2022.tex
+LaTeX2e <2018-12-01>
+(./cimento.cls
+Document Class: cimento 2002/04/09 v1.5b Il Nuovo Cimento
+\belowabstractskip=\skip41
+Class cimento Info: No DB support on input line 119.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+Class cimento Info: No SIF extensions on input line 178.
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@instcnt=\count85
+LaTeX Info: Redefining \MakeUppercase on input line 909.
+LaTeX Info: Redefining \MakeLowercase on input line 916.
+\@abstractbox@=\box27
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@subequation=\count86
+\eqnarraycolsep=\dimen102
+\c@table=\count87
+\c@figure=\count88
+\c@cim@cnt@fig=\count89
+\@tochskip@a=\skip44
+\@tochskip@b=\skip45
+Class cimento Info: No configuration file on input line 2247.
+Class cimento Info: No configuration file on input line 2252.
+\c@cim@vcnum=\count90
+)
+(./vicini-lathuile2022.aux)
+\openout1 = `vicini-lathuile2022.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen103
+\scratchbox=\box28
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks14
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen104
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks15
+)
+
+Class cimento Warning: Check-in missing.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 61.
+
+Class cimento Warning: PACS missing.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 69.
+
+LaTeX Warning: Reference `tab:pricesI' on page 1 undefined on input line 86.
+
+
+! LaTeX Error: Unknown float option `\'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90   \caption
+               {Prices of important items.}
+? x
+ 
+Here is how much of TeX's memory you used:
+ 1121 strings out of 492616
+ 13340 string characters out of 6129480
+ 77126 words of memory out of 5000000
+ 5100 multiletter control sequences out of 15000+600000
+ 7713 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,6n,19p,247b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

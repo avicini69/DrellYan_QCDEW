@@ -1,0 +1,31 @@
+1. checked
+
+2. The affiliations, including the complete addresses, are:
+
+\affiliation[a]{Dipartimento di Fisica ``Aldo Pontremoli'',
+  University of Milano, Via Celoria 16, I-20133 Milano, Italy}
+\affiliation[b]{Dipartimento di Fisica, Universit\`a di Roma ``La Sapienza'' and INFN, Sezione di Roma, Piazzale Aldo Moro 5, I-00185 Roma, Italy}
+\affiliation[c]{INFN, Sezione di Milano, Via Celoria 16,  I-20133 Milano, Italy}
+\affiliation[d]{Department of Physics, Indian Institute of Technology Kanpur, 208016 Kanpur, India}
+
+3. checked, it is ok
+
+4. checked, it is ok
+
+5. checked
+
+6. Acknowledgements are ok.
+
+7. please replace the current bibitem for reference [133] with
+
+@article{Armadillo:2022ugh,
+    author = "Armadillo, Tommaso and Bonciani, Roberto and Devoto, Simone and Rana, Narayan and Vicini, Alessandro",
+    title = "{Evaluation of Feynman integrals with arbitrary complex masses via series expansions}",
+    eprint = "2205.03345",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    month = "5",
+    year = "2022"
+}
+
+

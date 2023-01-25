@@ -1,0 +1,88 @@
+************************************************************************
+**   Two-loop mixed EW QCD corrections to neutral current Drell-Yan   **
+**  Roberto Bonciani, Simone Devoto, Narayan Rana, Alessandro Vicini  **
+************************************************************************
+
+
+alpha : electro-magnetic coupling constant
+alphas : strong coupling constant
+
+aem = alpha/4/pi  = e^2/16/pi^2
+asr = alphas/4/pi = gs^2/16/pi^2
+
+borncf = N_C = 3
+Cf = C_F = 4/3
+gA4 = e^4 
+Qu = 2/3
+Qd =-1/3
+Ql =-1
+
+
+
+************************************************************************
+**                                                             Masses **
+
+mm = 0.105658369;
+
+mmz = 91.15348061918276;
+mmw = 80.35797360987756;
+GamZ = 2.4942663787728243;
+GamW = 2.0842989982782196;
+
+mZ2 = mmz^2-I*GamZ*mmz;
+mZC2 = mmz^2+I*GamZ*mmz;
+mW2 = mmw^2-I*GamW*mmw;
+mWC2 = mmw^2+I*GamW*mmw;
+
+mZ = sqrt(mZ2);
+mZC = sqrt(mZC2);
+mW = sqrt(mW2);
+mWC = sqrt(mWC2);
+
+cw = mW/mZ;
+cwC = mWC/mZC;
+sw = sqrt(1.0-pow(cw,2));
+swC = sqrt(1.0-pow(cwC,2));
+
+
+
+gVu = 1/4 - 2*sw^2/3;   gAu = 1/4;
+gVuC= 1/4 - 2*swC^2/3;  gAuC= 1/4;
+gVd =-1/4 + sw^2/3;     gAd =-1/4;
+gVdC=-1/4 + swC^2/3;    gAdC=-1/4;
+gVl =-1/4 + sw^2;       gAl =-1/4;
+gVlC=-1/4 + swC^2;      gAlC=-1/4;
+gVn = 1/4;              gAn = 1/4;
+gVnC= 1/4;              gAnC= 1/4;
+
+
+
+************************************************************************
+**                                                          Constants **
+
+pi = 3.1415926535897932384626433832795028841971693993751;
+IPi = I*3.1415926535897932384626433832795028841971693993751;
+z2 = 1.6449340668482264364724151666460251892189499012068;
+z3 = 1.2020569031595942853997381615114499907649862923405;
+
+c  = 1/2 + I*sqrt(3)/2;
+cb = 1/2 - I*sqrt(3)/2;
+
+
+************************************************************************
+**                                                          Variables **
+
+cBpropml = ml2/(s-mZC2);
+cBpropmZ = mZ2/(s-mZC2);
+cBpropmW = mW2/(s-mZC2);
+
+
+s = (p1+p2)^2; t = (p1-p3)^2; u = (p2-p3)^2;
+
+xrl = -(s/ml2) = (1-xl)^2/xl; yl = -(t/ml2); zl = -(u/ml2);
+xrZ = -(s/mZ2) = (1-xZ)^2/xZ; yZ = -(t/mZ2) = xZ/vZ*(1+vZ)^2/(1+xZ^2); zZ = -(u/mZ2) = xZ/vpZ*(1+vpZ)^2/(1+xZ^2);
+xrW = -(s/mW2) = (1-xW)^2/xW; yW = -(t/mW2) = xW/vW*(1+vW)^2/(1+xW^2); zW = -(u/mW2) = xW/vpW*(1+vpW)^2/(1+xW^2);
+
+isqvz = I*sqrt(vZ); isqvpz = I*sqrt(vpZ);
+isqvw = I*sqrt(vW); isqvpw = I*sqrt(vpW);
+

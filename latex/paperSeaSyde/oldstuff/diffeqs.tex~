@@ -1,0 +1,23 @@
+\section{Analytic continuation of the solution}
+\label{sec:analcont}
+\subsection{Reading the singular points from the differential equations}
+How to identify the singular points from the coefficient matrix of the system
+of differential equations.
+
+\subsection{The general case of complex-valued variables and weights}
+Description of general case with complex-valued variables and weights,
+for one given kinematical variable at a time.
+
+
+\subsection{Transporting the solution to an arbitrary point in the complex plane.}
+
+The nice example with the colored circles.
+
+\subsection{A one-loop example}
+The simple example of a one-loop box with 2 massive lines,
+in both cases with real- and complex-valued masses.
+
+
+
+
+

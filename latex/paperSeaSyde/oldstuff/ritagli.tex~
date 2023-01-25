@@ -1,0 +1,180 @@
+
+
+On the other hand, when we rescale by complex masses, all the singular points
+are located away from the real axis
+and the decision about the orientation of the cuts could become problematic.
+To solve this problem,
+we rely on the real-mass rescaling
+for the identification of the two sets of points.
+We then assign a cut parallel to the real axis
+to the points of the real-vauled singularities set.
+The imaginary component of the cut, induced by the rescaling by a complex mass,
+is an important input when we decide the
+trajectory of the solution in the complex plane
+from the BCs point to the value of interest.
+If we can move in the complex plane
+avoiding a crossing of all the cuts parallel to the real axis,
+then the precise trajectory must only take care of the position
+of the other singularities,
+those which are from the very beginning in the complex plane.
+
+
+
+
+For the latter,
+it is equivalent whether we rescale the invariants
+by a real or a complex mass.
+
+
+
+
+
+
+
+% ************** Used Packages **************
+
+%\RequirePackage{ifpdf} 
+%\usepackage{amsmath} 
+%\usepackage{mathtools}
+
+%\usepackage{jheppub}
+%\usepackage{pstricks}
+%\usepackage[final]{pdfpages} 
+%\usepackage{ifpdf} 
+%\usepackage{slashed}
+%\usepackage{ulem}
+%\usepackage{hyperref}
+
+%\usepackage{color} 
+%\usepackage{graphics}
+
+%\usepackage{etoolbox} 
+%\usepackage{fixmath}
+
+%\usepackage{Style/notoccite} 
+% \usepackage{caption} 
+% \usepackage{subcaption} 
+%\usepackage{amsfonts}
+
+%\usepackage{multirow}
+%\usepackage{epstopdf}
+%\usepackage[compat=1.1.0]{tikz-feynman}
+%\usepackage{environ}
+%\NewEnviron{eq}{%
+%\begin{equation}\begin{split}
+%  \BODY
+%\end{split}\end{equation}
+%}
+
+% For making math symbol large: \mathlarger
+%\usepackage{relsize}
+%\usepackage{cancel}
+%\usepackage{float}
+%\usepackage[normalem]{ulem}
+%\usepackage{framed}
+
+%% %\usepackage[utf8]{inputenc}
+%% %\usepackage[normalem]{ulem}
+
+%% \usepackage{tikz}
+%% \usetikzlibrary{positioning,arrows}
+%% \usetikzlibrary{decorations.pathmorphing}
+%% \usetikzlibrary{decorations.markings}
+%% \usetikzlibrary{shapes.geometric}
+%% \usepackage{endnotes}
+%% %\usepackage{pgflibraryarrows}
+%% %\usepackage{pgflibrarysnakes}
+%% \tikzset{
+%% 	% >=stealth', %%  Uncomment for more conventional arrows
+%%     vector/.style={decorate, decoration={snake}, draw},
+%%     provector/.style={decorate, decoration={snake,amplitude=2.5pt}, draw},
+%%     antivector/.style={decorate, decoration={snake,amplitude=-2.5pt}, draw},
+%%     fermion/.style={draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{>}}}}, 
+%%     fermionbar/.style={draw=black, postaction={decorate},
+%%                        decoration={markings,mark=at position .55 with {\arrow[draw=black]{<}}}},
+%%     fermionnoarrow/.style={draw=black},
+%%     gluon/.style={decorate, draw=black,decoration={coil,amplitude=4pt, segment length=6pt}},
+%%     scalar/.style={dashed,draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{>}}}}, 
+%%     scalarbar/.style={dashed,draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{<}}}}, 
+%%     scalarnoarrow/.style={dashed,draw=black},
+%%     electron/.style={draw=black,
+%%       postaction={decorate},decoration={markings,mark=at position .55
+%%         with {\arrow[draw=black]{>}}}}, 
+%%     bigvector/.style={decorate, decoration={snake,amplitude=4pt}, draw},
+%% } 
+
+%% \newcommand{\dd}{\draw}
+%% % \newcommand{\nn}{\node}
+%% \newcommand{\Poincare}{Poincar\'e\xspace}
+
+% \newcommand{\ep}{\epsilon}
+
+% \newcommand{\DD}{{\cal D}}
+% \newcommand{\nn}{\nonumber\\&}
+% \newcommand{\D2}{${\cal D}_2$}
+% \newcommand{\D3}{${\cal D}_3$}
+
+%% \newcommand{\zb}{\bar{z}}
+%% \newcommand{\zbb}{\bar{\bar{z}}}
+%% \newcommand{\zbf}{\hat{\bar{z}}}
+%% \newcommand{\zt}{\tilde{z}}
+%% \newcommand{\ztt}{\tilde{\tilde{z}}}
+%% \newcommand{\ztf}{\hat{\tilde{z}}}
+
+%% \newcommand{\xxm}{\bar{t}}
+%% \newcommand{\xxp}{\tilde{t}}
+%% \newcommand{\xxt}{{\check{t}}}
+%% \newcommand{\xxh}{\hat{\tilde{t}}}
+
+%% \newcommand{\xyb}{\bar{w}}
+%% \newcommand{\xyt}{\tilde{w}}
+
+%% \newcommand{\rb}{\bar{\rho}}
+%% \newcommand{\rrt}{\hat{\rho}}
+
+%% \newcommand{\itwo}{i_2}
+%% \newcommand{\mione}{i_1}
+
+%% \newcommand{\GI}{G_I}
+%% \newcommand{\sw}{s_{\scriptscriptstyle W}}
+%% \newcommand{\cw}{c_{\scriptscriptstyle W}}
+
+
+
+
+%% \newcommand{\smallw}{{\scriptscriptstyle W}}
+%% \newcommand{\mt}{m_t} 
+%% \newcommand{\mw}{m_\smallw} 
+%% \newcommand{\mwsq}{m_\smallw^2} 
+%% \newcommand{\mwc}{m_{\smallw 0}}
+%% \newcommand{\smallz}{{\scriptscriptstyle Z}}
+%% \newcommand{\mz}{m_\smallz} 
+%% \newcommand{\mzsq}{m_\smallz^2} 
+%% \newcommand{\mzc}{m_{\smallz 0}} 
+%% \newcommand{\oa}{${\cal O}(\alpha)$\,} 
+%% \newcommand{\oas}{${\cal O}(\alpha_s)$\,} 
+%% \newcommand{\oasas}{${\cal O}(\alpha_s^2)$\,} 
+%% \newcommand{\oaa}{${\cal O}(\alpha^2)$\,} 
+%% \newcommand{\oaas}{${\cal O}(\alpha\alpha_s)$\,} 
+%% \newcommand{\sineffl}{\sin\theta_{eff}^{\ell}\,}
+%% \newcommand{\coseffl}{\cos\theta_{eff}^{\ell}\,}
+%% \newcommand{\seffl}{\sin^2\theta_{eff}^{\ell}\,}
+%% \newcommand{\ceffl}{\cos^2\theta_{eff}^{\ell}\,}
+%% \newcommand{\eps}{\varepsilon} 
+%% \newcommand{\muf}{\mu_F}
+%% \newcommand{\mur}{\mu_R}
+%% \newcommand{\sinw}{\sin\theta_W}
+%% \newcommand{\cosw}{\cos\theta_W}
+%% \newcommand{\swtwo}{\sin^2\theta_W}
+%% \newcommand{\swfour}{\sin^4\theta_W}
+%% \newcommand{\cwtwo}{\cos^2\theta_W}
+
+%\newcommand{\av}[1]{{\color{red} {#1}}}
+%\newcommand{\nr}[1]{{\color{blue} #1}}
+

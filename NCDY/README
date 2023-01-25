@@ -1,0 +1,13 @@
+the directory numerics contains all the files to produce the grids
+
+in the directory numerics there are several subdirectories
+
+inputdata contains all the precomputed grids for vertex and box corrections
+
+masterintegrals contains all the files needed to solve the Master Integrals
+
+renormalization  contains the Mathematica notebooks to compute the contributions with counterterms
+
+script contains a few Mathematica notebooks to combine the results
+
+results contains the final grids (finaloutput) and some checks (checks))

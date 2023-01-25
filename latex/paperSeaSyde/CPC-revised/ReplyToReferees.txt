@@ -1,0 +1,30 @@
+Dear Editor,
+we would like to thank the referees for their comments, that we addressed as follows.
+
+Reviewer 1:
+
+1. the "2" was removed;
+2. the "Method of Differential Equations" (IBP reduction to the MIs and use of systems of first-order linear differential equations for their solution) ensures that the matrix of the system cannot contain square roots. We can only have rational functions. This is true irrespectively on the basis of masters we choose and it is true also for the canonical basis. The square roots eventually appear in the rotation from the "pre-canonical" basis to the canonical one, but not in the systems of differential equations. Therefore, the package can deal with any kind of master basis, canonical or not. Moreover, as we will comment in a while, also the requirement that the matrix of the system should be in triangular form is not true anymore, with the current version of the package, and also systems in which some of the equations are coupled (for instance systems with some elliptic sector) can be solved with SeaSyde.
+3. the "ChopPrecision" parameter has been added to the table A.2 at page 17;
+4. the repetition of "SolutionValue" has been corrected;
+5. a comment has been added to the description of the BCs parameter at page 17.
+
+
+Reviewer 2:
+
+1. we added the corresponding citation;
+2. we added the corresponding citation;
+3. we defined accordingly the acronym;
+4. we made it uniform;
+5. we added the citation;
+6. this topic represents an additional step in the evaluation of theoretical predictions for an observable, but it is not central for the current paper. We added a small sentence at the end of Section 3, on pag. 15, mentioning the point raised by the referee;
+7. we replaced the acronym with the complete expression;
+8. we added with the package a file with the example explicitly worked out in the text, as suggested by the referee.
+
+In addition to the points raised by the referees, we would like to stress the following.
+The first version of SeaSyde was able to solve only systems provided in triangular form. This "limitation" was not systemic and due only to lack of time in our implementation. After the submission to CPC we implemented a new version of SeaSyde that is not anymore limited to triangular systems, but can deal also with systems in which some of the equations are coupled. This covers, actually, the entire (current) set of possibilities encountered so far in the evaluation of Feynman diagrams for collider processes.
+In the resubmission of the present paper, then, we decided to replace the old file with the new one and we dropped accordingly the sentence on pag.9 that was stressing the limitation of SeaSyde to triangular systems.
+In addition, we added a sentence that explaines the possibility to have coupled systems.
+
+Best regards,
+Tommaso Armadillo, Roberto Bonciani, Simone Devoto, Narayan Rana, Alessandro Vicini

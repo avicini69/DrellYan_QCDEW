@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: SeaSyde.aux
+The style file: elsarticle-num.bst
+Illegal, another \bibstyle command---line 115 of file SeaSyde.aux
+ : \bibstyle
+ :          {elsarticle-num}
+I'm skipping whatever remains of this command
+Database file #1: SeaSyde.bib
+Warning--empty journal in Weinzierl:2022eaz
+Warning--empty pages in Bourjaily:2022bwx
+Warning--empty journal in Abreu:2022mfk
+Warning--empty journal in Blumlein:2022zkr
+Warning--empty journal in Goncharov:2001iea
+Warning--empty journal in Bauer:2000cp
+Warning--empty journal in Dubovyk:2022frj
+Warning--empty journal in Bonciani:2021zzf
+Warning--empty journal in Becchetti:2021axs
+Warning--empty journal in Armadillo:2022bgm
+Warning--empty journal in vonManteuffel:2012np
+Warning--empty journal in Lee:2012cn
+Warning--empty journal in Maierhoefer:2017hyi
+Warning--empty journal in Liu:2022chg
+Warning--empty journal in Bishara:2019iwh
+You've used 71 entries,
+            2952 wiz_defined-function locations,
+            1225 strings with 18887 characters,
+and the built_in function-call counts, 22239 in all, are:
+= -- 2266
+> -- 680
+< -- 0
++ -- 274
+- -- 203
+* -- 2046
+:= -- 3037
+add.period$ -- 141
+call.type$ -- 71
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 86
+duplicate$ -- 551
+empty$ -- 2355
+format.name$ -- 252
+if$ -- 5661
+int.to.chr$ -- 0
+int.to.str$ -- 71
+missing$ -- 71
+newline$ -- 291
+num.names$ -- 71
+pop$ -- 259
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1494
+stack$ -- 0
+substring$ -- 999
+swap$ -- 308
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 15
+while$ -- 138
+width$ -- 73
+write$ -- 752
+(There was 1 error message)

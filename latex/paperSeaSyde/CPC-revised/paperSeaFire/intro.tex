@@ -1,0 +1,62 @@
+\section{Introduction}
+\label{sec:intro}
+
+The high quality and precision of the large amount of data collected by the experiments at the CERN LHC calls for a corresponding theoretical effort, to interpret the results in a meaningful way.
+The evaluation of the radiative corrections at second and higher orders in the perturbative coupling constant expansion has become a need.
+These challenging calculations require the solution of multiloop Feynman integrals, which are in several cases still unknown.
+The complexity of these problems grows with the number of energy scales: independent kinematical invariants and masses. The latter might be complex valued, as it is the case for unstable particles like the gauge and the Higgs bosons or the top quark.
+The gauge symmetry of the scattering amplitude leads to non-trivial cancellations among the different terms associated to the Feynman diagrams and possible problems of precision loss must be kept under control. The analytical knowledge of the solution of the Feynman integrals is thus desirable, to have an arbitrary number of digits available. When this is not the case, then different approaches might be useful.
+Comprehensive reviews on the Feynman integrals, covering the various strategies can be found in Refs.\cite{Heinrich:2020ybq,Weinzierl:2022eaz,Bourjaily:2022bwx,Blumlein:2022zkr}.
+
+
+
+It is difficult to design  a general algorithm which allows the evaluation of an arbitrary Feynman integral, because of the presence of singular points and branch cuts, connected to the physical thresholds and pseudo-thresholds of the diagram. For this reason a purely numerical approach \cite{Smirnov:2015mct,Borowka:2017idc} can encounter problems whenever an integrable singularity is present. Isolating the singular points and working out a dedicated analytical rearrangement of the integrand function may yield the successful evaluation of the integral, decomposed in the sum of several regular terms.
+Whenever the identification of the singular structure or the following rearrangement can not be performed, then numerical instabilities are expected. The analytical solution is clearly preferable in all such cases, because the singular behaviour can be exposed and arbitrary precision can be achieved everywhere else.
+
+We have analytical control over the solution of an integral, if it can be expanded as a power series at every point of its domain.
+We dub analytical solutions those which can be expressed in closed form as a combination of elementary and special functions, whose power expansion is known. We call semi-analytical solutions those which can only be represented as power expansions, without additional functional relations (the latter are typically available in the closed form case).
+
+Beside the different strategies to solve the problem of integration of the Feynman integrals, the differential equations approach \cite{Kotikov:1990kg,Kotikov:1991pm,Bern:1993kr,Remiddi:1997ny,Gehrmann:1999as,Argeri:2007up,Henn:2013pwa,Henn:2014qga} has become very popular, covering a large number of cases relevant in multi-loop calculations.
+%(for a review see \cite{Weinzierl:2022eaz} and references therein).
+The Feynman integrals can be written as a combination of basic integrals called Master Integrals (MIs) and the latter satisfy, in fact, systems of first order linear differential equations. These systems can be solved, in several relevant cases, in closed form: the system is expanded in the dimensional regularisation parameter $\varepsilon=(4-d)/2$, where $d$ is the dimension of the space-time and, order by order in $\varepsilon$, the solutions are expressed in terms of a suitable functional basis. A first class of problems is represented by the systems that admit solutions expressed in terms of 
+%in terms of 
+generalised polylogarithmic functions \cite{Goncharov:polylog,Goncharov:1998kja,Goncharov:2001iea,Remiddi:1999ew}.
+%
+%, order by order in an expansion in the dimensional regularisation parameter. 
+%
+The algebraic properties of these functions allow to simplify the final expression of the scattering amplitude. Moreover, their numerical evaluation is under control and provided by general public routines \cite{Gehrmann:2001pz,Gehrmann:2001jv,Vollinga:2004sn,Bonciani:2010ms,Naterop:2019xaf}.
+%The achievement of the solution in terms of polylogarithms is guaranteed by the possibility to cast the result in terms of repeated nested integrals of a given class of ``weight'' rational functions. There are cases in which the system can be cast in d-log form with non rational arguments and the solutions can be expressed in terms of polylogarithmic functions \cite{Heller:2019gkq} (this is however not always the case \cite{Duhr:2020gdd}).
+%
+%When such identification is not possible, then the analytical solution in polylogarithmic form is not available.
+%It should be stressed that going beyond the strict definition of the Goncharov polylogarithms, repeated nested integrals can be cast in the more general Chen-Goncharov form. The difference between these two cases is related to the availability for these functions of a series expansion representation. The latter is not available in the Chen-Goncharov case, leaving the solution at a more abstract and formal level, of no practical use in explicit calculations.
+%
+%The integration of the differential equations system can lead, in other cases, to different special functions, e.g. of elliptic kind.
+Recently, another class of problems became relevant for phenomenological applications, namely cases in which the systems admit solutions expressed in terms of more general special functions, e.g. of elliptic kind \cite{Adams:2016xah,Remiddi:2017har,Broedel:2017kkb,Broedel:2017siw,Broedel:2018iwv,Ablinger:2017bjx,Bourjaily:2022bwx}. Also in this case, the properties of the functions under consideration allow for a simplification in the final expressions and a control on the complexity of the analytic formulae. The numerical evaluation of such functions is less general, but nevertheless possible using power expansion representations \cite{Walden:2020odh}. 2
+%
+Cases in which a closed form instead is not known or not suitable for power expansions need to be treated using a different strategy.
+
+We can thus summarise that the study of a multi-loop 
+Feynman integral leads to two distinct cases: $i)$ the solution is achievable in terms of special functions; $ii)$ the closed form solution is not available.
+%or can not be represented via power series.
+We focus in this paper on the second case and consider the recent developments of semi-analytical algorithms to solve via series expansion the systems of differential equations satisfied by a Feynman integral
+\footnote{
+Different numerical approaches for the solution of differential equations have been proposed in Refs.~\cite{Czakon:2008zk,Mandal:2018cdj}.
+}.
+The solution is first written as a power series with unknown coefficients and is inserted in the differential equations; an infinite number of algebraic equations for the unknown coefficients can be written and recursively solved. The solution is thus known inside the convergence radius of the series expansion. The extension to different regions can be achieved via analytic continuation.
+ This method was applied to the evaluation of one-dimensional problems (sunrise and vertex corrections, in which the MIs depend upon a single dimensionless variable) \cite{Pozzorini:2005ff,Aglietti:2007as,Lee:2017qql,Lee:2018ojn,Bonciani:2018uvv}. Then it was generalised to multi-dimensional problems in \cite{Moriello:2019yhu}. Recently a {\sc Mathematica} package, called {\sc DiffExp}, has been presented \cite{Hidding:2020ytt}, allowing the solution of an arbitrary system of differential equations, provided that the boundary conditions and the necessary prescriptions for the analytic continuation are known. This package has been successfully applied to several different problems \cite{Bonciani:2019jyb,Frellesvig:2019byn,Abreu:2020jxa,Dubovyk:2022frj,Bonciani:2021zzf,Becchetti:2020wof,Becchetti:2021axs}, always considering the case of real-valued masses for the particles running inside the loops.
+ 
+ 
+ The electroweak (EW) precision physics program at the LHC and future colliders requires the evaluation of EW radiative corrections which involve the exchange of $W$, $Z$, and the Higgs bosons. The latter are unstable particles and the gauge invariant definition of their masses can be achieved in the Complex-Mass-Scheme (CMS)\cite{Denner:2005fg}, identifying the complex-valued pole of their propagator. Precise predictions for the production of the top quark require the inclusion of off-shellness effects including the top decay width.
+ In this paper we present a package which is able to deal with complex-valued masses in the internal lines of the Feynman integral. We develop an original independent algorithm to implement the analytic continuation.
+ 
+
+
+The paper is organised as follows.
+In Section~\ref{sec:series} we provide a pedagogical introduction to the solution of a system of first order linear differential equations by series expansions, with a particular focus on how the analytic continuation of the result can be safely obtained to an arbitrary point in the complex plane. 
+We outline the implementation in the \textsc{Mathematica} package \textsc{SeaSyde}  (Series Expansion Approach for SYstems of Differen-
+tial Equations) of the algorithm that solves a system of differential equations, for arbitrary complex-valued kinematical variables and we illustrate the different computational strategies available.
+In Section~\ref{sec:results}, as a first practical application of the algorithm, we discuss the solution of the MIs needed to evaluate the two-loop QCD-EW virtual corrections to the neutral-current Drell-Yan processes \cite{Bonciani:2021zzf,Armadillo:2022bgm}.
+The detailed expressions and evaluation properties of the integrals used in Ref.\cite{Armadillo:2022bgm} constitute an original result of this paper.
+Finally, in Section~\ref{sec:conclusion} we draw our conclusions.
+
+The latest version of the \textsc{Mathematica} package \textsc{SeaSyde} can be downloaded from \url{https://github.com/TommasoArmadillo/SeaSyde}, while its full documentation for Version 1.0 is provided in~\ref{app:packagedoc}.

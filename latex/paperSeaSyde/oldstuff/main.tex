@@ -1,0 +1,91 @@
+\documentclass[review]{elsarticle}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+\journal{CPC}
+
+\bibliographystyle{elsearticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+
+\begin{frontmatter}
+
+\title{Evaluation of Feynman integrals with arbitrary complex masses via series expansions.}
+
+\author[a,b]{Tommaso Armadillo}
+\author[c]{Roberto Bonciani}
+\author[b,d]{Simone Devoto}
+\author[b,d,e]{Narayan Rana}
+\author[b,d]{Alessandro Vicini}
+
+\address[a]{Centre for Cosmology, Particle Physics and Phenomenology (CP3),
+Université Catholique de Louvain, Chemin du Cyclotron, B-1348 Louvain la Neuve, Belgium}
+\address[b]{Dipartimento di Fisica ``Aldo Pontremoli'', University of Milano, Via Celoria 16, 20133 Milano, Italy}
+\address[c]{Dipartimento di Fisica, Universit\`{a} di Roma ``La Sapienza'' and INFN Sezione di Roma, Piazzale Aldo Moro 5, I-00185 Roma, Italy}
+\address[d]{INFN Sezione di Milano, Via Celoria 16, 20133 Milano, Italy}
+\address[e]{Department of Physics, Indian Institute of Technology Kanpur, 208016 Kanpur, India}
+
+
+\ead{tommaso.armadillo@uclouvain.be}
+\ead{roberto.bonciani@roma1.infn.it}
+\ead{simone.devoto@unimi.it}
+\ead{narayan.rana@unimi.it}
+\ead{alessandro.vicini@mi.infn.it}
+
+
+% ********** Abstract **********
+
+\begin{abstract}
+  We present an algorithm to evaluate multiloop Feynman integrals
+  with an arbitrary number of internal massive lines,
+  with the masses being in general complex valued.
+  The implementation solves by series expansions
+  the system of differential equations
+  satisfied by the Feynman integrals.
+  At variance with respect to other existing codes,
+  the analytical continuation of the solution is performed
+  in the complex plane associated to each kinematical invariant.
+  We present the results of the evaluation of the Master Integrals
+  relevant for the NNLO QCD-EW corrections to
+  the neutral-current Drell-Yan processes.
+\end{abstract}
+
+
+\end{frontmatter}
+
+\linenumbers
+
+%\colorlet{shadecolor}{gray!14}
+
+
+
+
+%\preprint{\quad Tif}
+%\keywords{Radiative corrections, Loop integrals}
+
+%\allowdisplaybreaks[4]
+%\unitlength1cm
+%\maketitle
+%\flushbottom
+%\let\footnote=\endnote
+%\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+%%%%% 
+\input{intro}
+\input{seriesexpansion}
+\input{diffeqs}
+\input{package}
+\input{result}
+\input{conclusion}
+%\appendix
+%\input{documentation}
+
+
+\bibliography{main} 
+
+
+\end{document}

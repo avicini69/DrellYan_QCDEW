@@ -1,0 +1,96 @@
+Dear Editor,
+we would like to thank the Referee for her/his comments,
+which have been helpful to correct and improve the paper.
+We answer in detail to all the points in the following.
+We have implemented all the requested changes and
+we hope that, with these modifications, the paper is now suitable
+for publication on JHEP.
+
+
+1. We thank the referee for pointing out a mistake of our writing.
+In our calculation, we have computed explicitly and separately the uubar
+and ddbar channels. We have performed the computation with two independent
+codes generating the Feynman amplitudes and, after the relevant
+manipulations, we found perfect agreement.
+
+While describing the generation of the amplitude, we overlooked the
+possible problem with the WW boxes and we gave a misleading recipe. We
+have corrected the text specifying what we actually did.
+
+
+2. We have corrected the text according to the request of the referee.
+
+3. At page 7, we point the reader to ref.[79] for the complex mass scheme.
+
+4. The question asked by the referee is twofold.
+
+(a) The one-loop expressions have been generated in two completely
+independent ways relying on QGRAF and on FeynArts, with perfect agreement,
+separately for uubar and ddbar channels as already commented for point 1.
+
+(b) When discussing the one-loop boxes, the relevance of the complex mass
+scheme emerges, because of the presence of a threshold at 2*MV, MV being
+the mass of the gauge boson (W or Z). We have expressed the one-loop
+integrals in terms of GPLs or via A,B,C, and D scalar integral functions.
+We have used GiNaC to evaluate the GPLs and Looptools for the A,B,C,D
+scalar functions.
+For the epsilon^0 contribution in dimensional regularization, we can compare
+the two evaluations finding perfect agreement with each other, with both
+real and complex masses. We can also evaluate the scalar massive box via
+series expansion and also in this case we find perfect agreement. We have
+studied the dependence of these functions on the value of the gauge boson
+decay width, finding a regular behavior.
+
+5. and 6.
+The results of the code which performs the series expansion has been compared
+with PySecDec in the non-physical euclidean region, where PySecDec provides
+precise results.
+We found perfect agreement within the numerical uncertainty affecting the PySecDec results.
+In the physical region PySecDec has convergence problems.
+We performed a detailed comparison against DiffExp with real masses.
+In particular we compared the two solutions for 4 different values of sqrt(s)
+(one below the MV threshold, one between the MV and 2MV ones and two above the 2MV one)
+and for 2 different values of cos theta. We found agreement at the 10^-12 level.
+We also performed a comparison with Ginac for the 31 integrals expressed in terms of GPLs
+and evaluated with complex masses. The agreement is of order 10^-7.
+The value of the last 5 integrals with complex masses is a prediction.
+
+
+
+7. The hard virtual coefficient function H has been evaluated in 3250
+points and those are used as starting point for interpolation. The binning
+is finer around the Z resonance and coarser in the high mass tail; it is
+uniform with respect to the scattering angle. The evaluation of H at any
+intermediate point is achieved via linear interpolation of the grid values
+and the relative discrepancy compared to the exact result is smaller than
+0.001, understandable given the smoothness of the correction and the binning
+adapted to the NLO behaviour of the distribution.
+Increasing the binning to improve the accuracy of the interpolation is straightforward.
+We consider our current choice sufficient for an accurate phenomenology.
+
+8.
+The numerical evaluation of the Master Integrals requires a fixed amount of time of ~60 s,
+for each step of the transportation of the boundary conditions.
+The number of steps necessary for evaluating one point depends
+on the distance between the starting and ending point,
+and on the presence of singularities that need to be avoided.
+Entering the physical region, usually requires 20 steps.
+The evaluation of every additional point requires a number of steps between 1 and 10.
+
+Once the grid of the Master Integral values is ready,
+the evaluation of one point of the function H takes a time of order XXX s.
+
+Once the grid for the function H is ready, quering the interpolation function
+takes a negligible amount of time (of order 0.001s).
+
+
+
+9. We have already provided with the first submission a full grid of values,
+useful as benchmarks as suggested by the Referee.
+
+10. We provide in the text the requested values.
+
+
+
+
+

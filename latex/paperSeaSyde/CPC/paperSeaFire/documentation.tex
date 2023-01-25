@@ -1,0 +1,150 @@
+\section{Package documentation}
+\label{app:packagedoc}
+
+
+The \textsc{SeaSyde} package (Series Expansion Approach for SYstems of Differential Equations) can be imported in Mathematica using the command \texttt{Get[\dots]}, i.e. through \texttt{<< SeaSyde.m}. Note that it has been developed and tested on \textsc{Mathematica 12.0}, no previous version of \textsc{Mathematica} has been tested. 
+
+Below we present all different functions and their functionalities. 
+\begin{itemize}
+    \item \texttt{CurrentConfiguration[]}
+    
+    It returns the current configuration of the package. The configuration parameters can be modified using the function \texttt{UpdateConfiguration}.
+    
+    \item \texttt{UpdateConfiguration[NewConfig\_]}
+    
+    \texttt{NewConfig} must be a \texttt{List} whose elements are replacement rules \texttt{NameParameter -> NewValue}. See Table \ref{table:configuration} for a complete overview on all the parameters that the user can modify.
+    
+   \begin{table}[t!]
+    \centering
+      \makebox[\linewidth]{
+      \centering
+       \begin{tabular}{|C{4 cm}|C{2 cm}| C{1.5 cm}|J{7 cm}|}
+       \hline
+        NameParameter & Value type & Default & Description \\
+        \hline
+        {\small\texttt{EpsilonOrder}} & \texttt{Integer} & 2 & {\small The maximum order in the dimensional regulator $\varepsilon$ at which the system is expanded. Note that the minimum order is determined by the boundary conditions, i.e. if they contain a term $1/\varepsilon^2$ the minimum order will be $-2$.} \\
+        \hline
+       {\small \texttt{ExpansionOrder}} & \texttt{Integer} & 50 & {\small The maximum order in the kinematic variable at which the solution is expanded.}\\
+        \hline
+        {\small\texttt{InternalWorkingPrecision}} & \texttt{Integer} & 250 & {\small Specifies the number of digits that are used in internal calculations. If it is too high, the execution will require more time and space, if it is too low, we may face rounding errors.} \\
+        \hline
+        {\small\texttt{LogarithmicExpansion}} & \texttt{Bool} & \texttt{False} & {\small It specifies which method to use for transporting boundary conditions. If it is set to \texttt{True}, \textsc{SeaSyde} will expand also on top of singularities.}\\
+        \hline
+        {\small\texttt{RadiusOfConvergence}} & \texttt{Integer} & 2 & {\small It controls how fast we move at every expansion. If \texttt{RadiusOfConvergence} is $n$, and the maximum radius of convergence of the solution is $r$, then the new point will be distant $r/n$ from the center of the series. Note that $r$ is determined internally at every step, based on the position of singularities.}\\
+        \hline
+        {\small\texttt{LogarithmicSingularities}} & \texttt{List} & \texttt{\{\}} & {\small The user can explicitly state which singularities are of Logarithmic type, i.e. develop a branch-cut, and which ones are not. This might speed up the evaluation of numerical grids since it allows more direct paths in the phase-space. The format in which the singular points are passed must the one returned by \texttt{CheckSingularities[]}.}\\
+        \hline
+        {\small\texttt{SafeSingularities}} & \texttt{List} & \texttt{\{\}} & {\small Same as \texttt{LogarithmicSingularities}.}\\
+        \hline
+       \end{tabular}
+       }
+       \caption{All the parameters that can be modified by the user.}
+       \label{table:configuration}
+   \end{table}
+    
+    \item \texttt{ReadFrom[FilePath\_]} 
+    
+    Utility function which reads from the specified path and returns the content of the file.
+    
+    \item \texttt{SetSystemOfDifferentialEquation[System\_, BCs\_, MIs\_, Variables\_, PointBC\_, Param\_:\{\}]}
+    
+    It sets all the internal variables of the package and prepare the system of differential equations. It receives in input
+    \begin{itemize}
+        \item \texttt{System\_}: the system of differential equations. The system equations must be given in triangular form and it must be ordered so that, order by order in $\varepsilon$, every equation contains only MIs from previous equations. If there are multiple kinematic variables, for example \texttt{x} and \texttt{y}, the first $n$ equations in \texttt{System} must be the ones with respect to \texttt{x}, while the last $n$ the ones with respect to \texttt{y}, where $n$ is the number of MIs. The equations can be given expanded in $\varepsilon$ or in a closed form in $\varepsilon$.\\
+        \textit{Example:}
+\begin{Verbatim}[commandchars=\\\{\}]
+\{  B\textsubscript{1}\textsuperscript{(1,0)}[x,y] == 0 ,
+    B\textsubscript{2}\textsuperscript{(1,0)}[x,y] == (- 1/x - \textepsilon/x)B\textsubscript{2}[x,y] - \textepsilon B\textsubscript{1}[x,y] / x,
+    B\textsubscript{1}\textsuperscript{(0,1)}[x,y] == 0 ,
+    B\textsubscript{2}\textsuperscript{(0,1)}[x,y] == 0 \}
+\end{Verbatim}
+        \item \texttt{BCs\_}: the boundary conditions for the given equation. They can be given in a closed form in $\varepsilon$ or as a series. They can also be given as an asymptotic limit. They can be exact or floating numbers, in this case make sure that the precision of the boundary condition is sufficient for your final precision goal.
+        \\
+        \textit{Example:}
+\begin{Verbatim}[commandchars=\\\{\}]
+\{  B\textsubscript{1}[1,1] == - 1/32 + \textepsilon/32 + \textepsilon\textsuperscript{2}( - 1/32 + \textpi\textsuperscript{2}/96 ),
+    B\textsubscript{2}[1,1] == - \textepsilon Log[2]/16 + \textepsilon\textsuperscript{2}(-\textpi\textsuperscript{2}/192 + Log[2]\textsuperscript{2}/8) \}
+\end{Verbatim}
+        
+        \item \texttt{MIs\_}: the list of master integrals, as they appear in the equations.\\
+        \textit{Example:}
+\begin{Verbatim}[commandchars=\\\{\}]
+\{  B\textsubscript{1}[x,y], B\textsubscript{2}[x,y] \} 
+\end{Verbatim}
+        
+        \item \texttt{Variables\_}: the list of variables appear in the equations, together with their Feynman prescriptions.\\
+        \textit{Example:}
+\begin{Verbatim}[commandchars=\\\{\}]
+\{  x - I \textdelta, y + I \textdelta \} 
+\end{Verbatim}       
+        
+        \item \texttt{PointBC\_}: the point in the phase-space in which the boundary conditions are imposed.\\
+        \textit{Example:}
+\begin{Verbatim}[commandchars=\\\{\}]
+\{ 1, 1 \} 
+\end{Verbatim}           
+        
+        \item \texttt{Param\_}: this is an optional parameter. Some equations might contain some external parameters, for example some masses \texttt{Mw}, \texttt{Mz}. This substitutions are performed before solving the system.\\
+        \textit{Example:}
+\begin{Verbatim}[commandchars=\\\{\}]
+\{ MW -> 80.38, MZ -> 91.19 \} 
+\end{Verbatim}        
+    \end{itemize}
+    
+    \item \texttt{GetSystemOfDifferentialEquation[]} and\\ \texttt{GetSystemOfDifferentialEquationExpanded[]}
+    
+    They return the system of differential equations before and after it has been expanded in $\varepsilon$. These functions can be used to check if everything has been set correctly.
+    
+    \item \texttt{SolveSystem[Variable\_]} 
+    
+    It solves the system of differential equations with respect to the kinematic variable \texttt{Variable}. The series solution in centred in the point where the boundary conditions are imposed. After solving the system of differential equations, it is possible to obtain the solution through \texttt{Solution[]}, \texttt{SolutionValue[]} or \texttt{SolutionTable[]}.
+    
+    \item \texttt{GetPoint[]}
+    
+    It returns the current point in which the boundary conditions are imposed.
+    
+    \item \texttt{TransportVariable[Variable\_, Destination\_, Line\_:\{\}]}
+    
+    It transports the boundary conditions for the variable \texttt{Variable} from the current point to \texttt{Destination}. After transporting the boundary conditions, the point in which the boundary conditions are imposed is updated to \texttt{Destination}. The \texttt{Line} parameter is optional. If the user is not satisfied by the path automatically chosen by the package can use their own. The \texttt{Line} object must be created with \texttt{CreateLine}
+    
+    \item \texttt{CreateLine[Points\_]}
+    
+    It returns a line object that can be used in \texttt{TransportVariable}
+    
+    \item \texttt{TransportBoundaryConditions[PhaseSpacePoint\_]}
+    
+    \texttt{PhaseSpacePoint} must be a \texttt{List} whose length is given by the number of kinematic variables. Its first element must be the final value for the first variable, its second element the value for the second variable, and so on. The order of the kinematic variables is the same passed as an input in\texttt{SetSystemOfDifferentialEquation}. After transporting the boundary conditions, the point in which they are imposed is updated to \texttt{PhaseSpacePoint}.
+    
+    \item \texttt{Solution[]}
+    
+    It returns the series solution in the current point. The coefficients of the series are given with \texttt{InternalWorkingPrecision} digits. The result is given as a \texttt{List} and every MI as a Laurent series in $\varepsilon$.
+    
+    \item \texttt{SolutionValue[]}
+    
+    It returns the value of the MIs, in the centre of the series, as a Laurent expansion in $\varepsilon$. The coefficients of the $\varepsilon$-series are given with \texttt{InternalWorkingPrecision} digits.
+    
+    \item \texttt{SolutionValue[]}
+    
+    It returns the value of the MIs, in the centre of the series, as a \texttt{List} going from the minimum to the maximum order in $\varepsilon$. The coefficients of the $\varepsilon$-series are given with \texttt{InternalWorkingPrecision} digits.
+    
+    \item \texttt{CheckSingularities[]}
+    
+    It checks whether the singularities are logarithmic, i.e. if they develop a branch-cut. The check is done by performing a path round the singularity and checking if the solution has developed, or not, an imaginary part for at least one of the coefficients. If it is not, it means that in doing so we crossed a branch-cut and, hence, the singularity is logarithmic. If this function is not called, \texttt{SeaSyde} consider every singularity as logarithmic, and the analytic continuation is still possible. However, if the user is planning to make an intensive use of the function \texttt{TransportBoundaryConditions}, e.g. create a numerical grid, knowing the position of non-logarithmic singularities might allow for more direct paths in the complex plane. The output of \texttt{CheckSingularities} can be passed back in the \texttt{SafeSingularities} and \texttt{LogarithmicSingularities} parameters for future runs.
+    
+    
+    % \item \texttt{PerformMobiusTransformation[Variable\_]}
+    
+    % Perform a Möbius transformation with respect to \texttt{Variable}, note that \texttt{Variable} must the last variable we solved the system with respect to.  
+    
+    % \item \texttt{GetSolutionExpanded[]}
+    
+    % Returns the solution after performing the Möbius transformation.
+    
+    \item {\texttt{CreateGraph[MI\_, EpsOrder\_, Left\_, Right\_, OtherFunctions\_:\{\}]}}
+    
+    Draws a \texttt{ReImPlot} of the solution of order \texttt{EpsOrder} for the master \texttt{MI}. The graph runs from \texttt{Left} to \texttt{Right}. 
+    %The option \texttt{Mobius} can be used to control if the solution to be plotted is the one after Möbius transformation or not. 
+    The argument \texttt{OtherFunctions} may contains other functions to be plotted in the same graph.
+\end{itemize}
+
+In the \texttt{Example/} folder of the GitHub repository of \texttt{SeaSyde}, the user can find working examples to play with.

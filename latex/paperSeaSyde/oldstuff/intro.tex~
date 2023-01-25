@@ -1,0 +1,18 @@
+\section{Introduction}
+\label{sec:intro}
+The paper is organised as follows.
+In Section 2 we provide a pedagogical introduction to the solution
+of a system of first order linear differential equations by series expansions.
+In Section 3 we discuss a general procedure
+to exploit the information available through the differential equation.
+We accordingly set the branch cuts
+which uniquely define the first Riemann surface, making the solution
+one-valued.
+We comment on the differences emerging
+with different choices of the branch cuts.
+We eventually present how we implement in practice the analytic continuation
+with few representative examples a one- and two-loop level.
+In Section 4 we discuss the solution of the Master Integrals needed to
+evaluate the two-loop QCD-EW virtual corrections to the neutral-
+and charged-current Drell-Yan processes.
+The latter constitute an original result of this paper.

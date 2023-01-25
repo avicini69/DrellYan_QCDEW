@@ -1,0 +1,498 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{100}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.0
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{Drell:1970wh}
+Drell S and Yan T~M 1970 {\em Phys. Rev. Lett.\/} {\bf 25} 316--320 [Erratum:
+  Phys.Rev.Lett. 25, 902 (1970)]
+
+\bibitem{Arnison:1983rp}
+Arnison G {\em et~al.\/} (UA1) 1983 {\em Phys. Lett. B\/} {\bf 122} 103--116
+
+\bibitem{Banner:1983jy}
+Banner M {\em et~al.\/} (UA2) 1983 {\em Phys. Lett. B\/} {\bf 122} 476--485
+
+\bibitem{Arnison:1983mk}
+Arnison G {\em et~al.\/} (UA1) 1983 {\em Phys. Lett. B\/} {\bf 126} 398--410
+
+\bibitem{Bagnaia:1983zx}
+Bagnaia P {\em et~al.\/} (UA2) 1983 {\em Phys. Lett. B\/} {\bf 129} 130--140
+
+\bibitem{Altarelli:1979ub}
+Altarelli G, Ellis R and Martinelli G 1979 {\em Nucl. Phys. B\/} {\bf 157}
+  461--497
+
+\bibitem{Hamberg:1990np}
+Hamberg R, van Neerven W and Matsuura T 1991 {\em Nucl. Phys. B\/} {\bf 359}
+  343--405 [Erratum: Nucl.Phys.B 644, 403--404 (2002)]
+
+\bibitem{Harlander:2002wh}
+Harlander R~V and Kilgore W~B 2002 {\em Phys. Rev. Lett.\/} {\bf 88} 201801
+  (\textit{Preprint} \eprint{hep-ph/0201206})
+
+\bibitem{Duhr:2020seh}
+Duhr C, Dulat F and Mistlberger B 2020 {\em Phys. Rev. Lett.\/} {\bf 125}
+  172001 (\textit{Preprint} \eprint{2001.07717})
+
+\bibitem{Duhr:2020sdp}
+Duhr C, Dulat F and Mistlberger B 2020 {\em JHEP\/} {\bf 11} 143
+  (\textit{Preprint} \eprint{2007.13313})
+
+\bibitem{Duhr:2021vwj}
+Duhr C and Mistlberger B 2021  (\textit{Preprint} \eprint{2111.10379})
+
+\bibitem{Anastasiou:2003yy}
+Anastasiou C, Dixon L~J, Melnikov K and Petriello F 2003 {\em Phys. Rev.
+  Lett.\/} {\bf 91} 182002 (\textit{Preprint} \eprint{hep-ph/0306192})
+
+\bibitem{Anastasiou:2003ds}
+Anastasiou C, Dixon L~J, Melnikov K and Petriello F 2004 {\em Phys. Rev. D\/}
+  {\bf 69} 094008 (\textit{Preprint} \eprint{hep-ph/0312266})
+
+\bibitem{Melnikov:2006kv}
+Melnikov K and Petriello F 2006 {\em Phys. Rev. D\/} {\bf 74} 114017
+  (\textit{Preprint} \eprint{hep-ph/0609070})
+
+\bibitem{Catani:2009sm}
+Catani S, Cieri L, Ferrera G, de~Florian D and Grazzini M 2009 {\em Phys. Rev.
+  Lett.\/} {\bf 103} 082001 (\textit{Preprint} \eprint{0903.2120})
+
+\bibitem{Catani:2010en}
+Catani S, Ferrera G and Grazzini M 2010 {\em JHEP\/} {\bf 05} 006
+  (\textit{Preprint} \eprint{1002.3115})
+
+\bibitem{Camarda:2021ict}
+Camarda S, Cieri L and Ferrera G 2021  (\textit{Preprint} \eprint{2103.04974})
+
+\bibitem{Moch:2005ky}
+Moch S and Vogt A 2005 {\em Phys. Lett. B\/} {\bf 631} 48--57
+  (\textit{Preprint} \eprint{hep-ph/0508265})
+
+\bibitem{Ravindran:2005vv}
+Ravindran V 2006 {\em Nucl. Phys. B\/} {\bf 746} 58--76 (\textit{Preprint}
+  \eprint{hep-ph/0512249})
+
+\bibitem{Ravindran:2006cg}
+Ravindran V 2006 {\em Nucl. Phys. B\/} {\bf 752} 173--196 (\textit{Preprint}
+  \eprint{hep-ph/0603041})
+
+\bibitem{deFlorian:2012za}
+de~Florian D and Mazzitelli J 2012 {\em JHEP\/} {\bf 12} 088 (\textit{Preprint}
+  \eprint{1209.0673})
+
+\bibitem{Ahmed:2014cla}
+Ahmed T, Mahakhud M, Rana N and Ravindran V 2014 {\em Phys. Rev. Lett.\/} {\bf
+  113} 112002 (\textit{Preprint} \eprint{1404.0366})
+
+\bibitem{Catani:2014uta}
+Catani S, Cieri L, de~Florian D, Ferrera G and Grazzini M 2014 {\em Nucl. Phys.
+  B\/} {\bf 888} 75--91 (\textit{Preprint} \eprint{1405.4827})
+
+\bibitem{Li:2014afw}
+Li Y, von Manteuffel A, Schabinger R~M and Zhu H~X 2015 {\em Phys. Rev. D\/}
+  {\bf 91} 036008 (\textit{Preprint} \eprint{1412.2771})
+
+\bibitem{Ajjath:2020ulr}
+Ajjath A~H, Mukherjee P and Ravindran V 2020  (\textit{Preprint}
+  \eprint{2006.06726})
+
+\bibitem{Dittmaier:2001ay}
+Dittmaier S and Kr\"amer M 2002 {\em Phys. Rev. D\/} {\bf 65} 073007
+  (\textit{Preprint} \eprint{hep-ph/0109062})
+
+\bibitem{Baur:2001ze}
+Baur U, Brein O, Hollik W, Schappacher C and Wackeroth D 2002 {\em Phys. Rev.
+  D\/} {\bf 65} 033007 (\textit{Preprint} \eprint{hep-ph/0108274})
+
+\bibitem{Baur:2004ig}
+Baur U and Wackeroth D 2004 {\em Phys. Rev. D\/} {\bf 70} 073015
+  (\textit{Preprint} \eprint{hep-ph/0405191})
+
+\bibitem{Arbuzov:2005dd}
+Arbuzov A, Bardin D, Bondarenko S, Christova P, Kalinovskaya L, Nanava G and
+  Sadykov R 2006 {\em Eur. Phys. J. C\/} {\bf 46} 407--412 [Erratum:
+  Eur.Phys.J.C 50, 505 (2007)] (\textit{Preprint} \eprint{hep-ph/0506110})
+
+\bibitem{Zykunov:2005tc}
+Zykunov V 2007 {\em Phys. Rev. D\/} {\bf 75} 073019 (\textit{Preprint}
+  \eprint{hep-ph/0509315})
+
+\bibitem{Zykunov:2006yb}
+Zykunov V 2006 {\em Phys. Atom. Nucl.\/} {\bf 69} 1522
+
+\bibitem{CarloniCalame:2006zq}
+Carloni~Calame C, Montagna G, Nicrosini O and Vicini A 2006 {\em JHEP\/} {\bf
+  12} 016 (\textit{Preprint} \eprint{hep-ph/0609170})
+
+\bibitem{CarloniCalame:2007cd}
+Carloni~Calame C, Montagna G, Nicrosini O and Vicini A 2007 {\em JHEP\/} {\bf
+  10} 109 (\textit{Preprint} \eprint{0710.1722})
+
+\bibitem{Arbuzov:2007db}
+Arbuzov A, Bardin D, Bondarenko S, Christova P, Kalinovskaya L, Nanava G and
+  Sadykov R 2008 {\em Eur. Phys. J. C\/} {\bf 54} 451--460 (\textit{Preprint}
+  \eprint{0711.0625})
+
+\bibitem{Dittmaier:2009cr}
+Dittmaier S and Huber M 2010 {\em JHEP\/} {\bf 01} 060 (\textit{Preprint}
+  \eprint{0911.2329})
+
+\bibitem{Bernaciak:2012hj}
+Bernaciak C and Wackeroth D 2012 {\em Phys. Rev. D\/} {\bf 85} 093003
+  (\textit{Preprint} \eprint{1201.4804})
+
+\bibitem{Barze:2012tt}
+Barze L, Montagna G, Nason P, Nicrosini O and Piccinini F 2012 {\em JHEP\/}
+  {\bf 04} 037 (\textit{Preprint} \eprint{1202.0465})
+
+\bibitem{Barze:2013fru}
+Barze L, Montagna G, Nason P, Nicrosini O, Piccinini F and Vicini A 2013 {\em
+  Eur. Phys. J. C\/} {\bf 73} 2474 (\textit{Preprint} \eprint{1302.4606})
+
+\bibitem{Frederix:2018nkq}
+Frederix R, Frixione S, Hirschi V, Pagani D, Shao H~S and Zaro M 2018 {\em
+  JHEP\/} {\bf 07} 185 (\textit{Preprint} \eprint{1804.10017})
+
+\bibitem{deFlorian:2018wcj}
+de~Florian D, Der M and Fabre I 2018 {\em Phys. Rev. D\/} {\bf 98} 094008
+  (\textit{Preprint} \eprint{1805.12214})
+
+\bibitem{Delto:2019ewv}
+Delto M, Jaquier M, Melnikov K and R\"ontsch R 2020 {\em JHEP\/} {\bf 01} 043
+  (\textit{Preprint} \eprint{1909.08428})
+
+\bibitem{Cieri:2020ikq}
+Cieri L, de~Florian D, Der M and Mazzitelli J 2020 {\em JHEP\/} {\bf 09} 155
+  (\textit{Preprint} \eprint{2005.01315})
+
+\bibitem{Bonciani:2016wya}
+Bonciani R, Buccioni F, Mondini R and Vicini A 2017 {\em Eur. Phys. J. C\/}
+  {\bf 77} 187 (\textit{Preprint} \eprint{1611.00645})
+
+\bibitem{Bonciani:2019nuy}
+Bonciani R, Buccioni F, Rana N, Triscari I and Vicini A 2020 {\em Phys. Rev.
+  D\/} {\bf 101} 031301 (\textit{Preprint} \eprint{1911.06200})
+
+\bibitem{Bonciani:2020tvf}
+Bonciani R, Buccioni F, Rana N and Vicini A 2020 {\em Phys. Rev. Lett.\/} {\bf
+  125} 232004 (\textit{Preprint} \eprint{2007.06518})
+
+\bibitem{Bonciani:2021iis}
+Bonciani R, Buccioni F, Rana N and Vicini A 2021  (\textit{Preprint}
+  \eprint{2111.12694})
+
+\bibitem{Buccioni:2020cfi}
+Buccioni F, Caola F, Delto M, Jaquier M, Melnikov K and R\"ontsch R 2020 {\em
+  Phys. Lett. B\/} {\bf 811} 135969 (\textit{Preprint} \eprint{2005.10221})
+
+\bibitem{Behring:2020cqi}
+Behring A, Buccioni F, Caola F, Delto M, Jaquier M, Melnikov K and R\"ontsch R
+  2021 {\em Phys. Rev. D\/} {\bf 103} 013008 (\textit{Preprint}
+  \eprint{2009.10386})
+
+\bibitem{Denner:2019vbn}
+Denner A and Dittmaier S 2020 {\em Phys. Rept.\/} {\bf 864} 1--163
+  (\textit{Preprint} \eprint{1912.06823})
+
+\bibitem{Dittmaier:2014qza}
+Dittmaier S, Huss A and Schwinn C 2014 {\em Nucl. Phys. B\/} {\bf 885} 318--372
+  (\textit{Preprint} \eprint{1403.3216})
+
+\bibitem{Dittmaier:2015rxo}
+Dittmaier S, Huss A and Schwinn C 2016 {\em Nucl. Phys. B\/} {\bf 904} 216--252
+  (\textit{Preprint} \eprint{1511.08016})
+
+\bibitem{Dittmaier:2020vra}
+Dittmaier S, Schmidt T and Schwarz J 2020 {\em JHEP\/} {\bf 12} 201
+  (\textit{Preprint} \eprint{2009.02229})
+
+\bibitem{Buonocore:2021rxx}
+Buonocore L, Grazzini M, Kallweit S, Savoini C and Tramontano F 2021 {\em Phys.
+  Rev. D\/} {\bf 103} 114012 (\textit{Preprint} \eprint{2102.12539})
+
+\bibitem{Bonciani:2021zzf}
+Bonciani R, Buonocore L, Grazzini M, Kallweit S, Rana N, Tramontano F and
+  Vicini A 2022 {\em Phys. Rev. Lett.\/} {\bf 128} 012002 (\textit{Preprint}
+  \eprint{2106.11953})
+
+\bibitem{Bonciani:2016ypc}
+Bonciani R, Di~Vita S, Mastrolia P and Schubert U 2016 {\em JHEP\/} {\bf 09}
+  091 (\textit{Preprint} \eprint{1604.08581})
+
+\bibitem{Heller:2019gkq}
+Heller M, von Manteuffel A and Schabinger R~M 2020 {\em Phys. Rev. D\/} {\bf
+  102} 016025 (\textit{Preprint} \eprint{1907.00491})
+
+\bibitem{Hasan:2020vwn}
+Hasan S~M and Schubert U 2020 {\em JHEP\/} {\bf 11} 107 (\textit{Preprint}
+  \eprint{2004.14908})
+
+\bibitem{Long:2021fdc}
+Long M~M, Zhang R~Y, Ma W~G, Jiang Y, Han L, Li Z and Wang S~S 2021
+  (\textit{Preprint} \eprint{2111.14130})
+
+\bibitem{Heller:2020owb}
+Heller M, von Manteuffel A, Schabinger R~M and Spiesberger H 2021 {\em JHEP\/}
+  {\bf 05} 213 (\textit{Preprint} \eprint{2012.05918})
+
+\bibitem{Armadillo:2022bgm}
+Armadillo T, Bonciani R, Devoto S, Rana N and Vicini A 2022  (\textit{Preprint}
+  \eprint{2201.01754})
+
+\bibitem{'tHooft:1972fi}
+'t~Hooft G and Veltman M~J~G 1972 {\em Nucl. Phys. B\/} {\bf 44} 189--213
+
+\bibitem{Kreimer:1989ke}
+Kreimer D 1990 {\em Phys. Lett. B\/} {\bf 237} 59--62
+
+\bibitem{Korner:1991sx}
+Korner J~G, Kreimer D and Schilcher K 1992 {\em Z. Phys. C\/} {\bf 54} 503--512
+
+\bibitem{Nogueira:1991ex}
+Nogueira P 1993 {\em J. Comput. Phys.\/} {\bf 105} 279--289
+
+\bibitem{Hahn:2000kx}
+Hahn T 2001 {\em Comput. Phys. Commun.\/} {\bf 140} 418--431 (\textit{Preprint}
+  \eprint{hep-ph/0012260})
+
+\bibitem{Vermaseren:2000nd}
+Vermaseren J~A~M 2000  (\textit{Preprint} \eprint{math-ph/0010025})
+
+\bibitem{Mathematica}
+Inc W~R Mathematica, {V}ersion 12.3.1 champaign, IL, 2021
+  \urlprefix\url{https://www.wolfram.com/mathematica}
+
+\bibitem{Tkachov:1981wb}
+Tkachov F~V 1981 {\em Phys. Lett. B\/} {\bf 100} 65--68
+
+\bibitem{Chetyrkin:1981qh}
+Chetyrkin K~G and Tkachov F~V 1981 {\em Nucl. Phys. B\/} {\bf 192} 159--204
+
+\bibitem{Gehrmann:1999as}
+Gehrmann T and Remiddi E 2000 {\em Nucl. Phys.\/} {\bf B580} 485--518
+  (\textit{Preprint} \eprint{hep-ph/9912329})
+
+\bibitem{Maierhofer:2017gsa}
+Maierh\"ofer P, Usovitsch J and Uwer P 2018 {\em Comput. Phys. Commun.\/} {\bf
+  230} 99--112 (\textit{Preprint} \eprint{1705.05610})
+
+\bibitem{Lee:2013mka}
+Lee R~N 2014 {\em J. Phys. Conf. Ser.\/} {\bf 523} 012059 (\textit{Preprint}
+  \eprint{1310.1145})
+
+\bibitem{Lee:2012cn}
+Lee R~N 2012  (\textit{Preprint} \eprint{1212.2685})
+
+\bibitem{vonManteuffel:2012np}
+von Manteuffel A and Studerus C 2012  (\textit{Preprint} \eprint{1201.4330})
+
+\bibitem{Studerus:2009ye}
+Studerus C 2010 {\em Comput. Phys. Commun.\/} {\bf 181} 1293--1300
+  (\textit{Preprint} \eprint{0912.2546})
+
+\bibitem{Frenkel:1976bj}
+Frenkel J and Taylor J~C 1976 {\em Nucl. Phys. B\/} {\bf 116} 185--194
+
+\bibitem{Gehrmann:2005pd}
+Gehrmann T, Huber T and Maitre D 2005 {\em Phys. Lett. B\/} {\bf 622} 295--302
+  (\textit{Preprint} \eprint{hep-ph/0507061})
+
+\bibitem{Bonciani:2008az}
+Bonciani R, Ferroglia A, Gehrmann T, Maitre D and Studerus C 2008 {\em JHEP\/}
+  {\bf 07} 129 (\textit{Preprint} \eprint{0806.2301})
+
+\bibitem{Bonciani:2009nb}
+Bonciani R, Ferroglia A, Gehrmann T and Studerus C 2009 {\em JHEP\/} {\bf 08}
+  067 (\textit{Preprint} \eprint{0906.3671})
+
+\bibitem{Aglietti:2003yc}
+Aglietti U and Bonciani R 2003 {\em Nucl. Phys. B\/} {\bf 668} 3--76
+  (\textit{Preprint} \eprint{hep-ph/0304028})
+
+\bibitem{Aglietti:2004tq}
+Aglietti U and Bonciani R 2004 {\em Nucl. Phys. B\/} {\bf 698} 277--318
+  (\textit{Preprint} \eprint{hep-ph/0401193})
+
+\bibitem{Kotikov:1990kg}
+Kotikov A~V 1991 {\em Phys. Lett. B\/} {\bf 254} 158--164
+
+\bibitem{Remiddi:1997ny}
+Remiddi E 1997 {\em Nuovo Cim. A\/} {\bf 110} 1435--1452 (\textit{Preprint}
+  \eprint{hep-th/9711188})
+
+\bibitem{Argeri:2007up}
+Argeri M and Mastrolia P 2007 {\em Int. J. Mod. Phys. A\/} {\bf 22} 4375--4436
+  (\textit{Preprint} \eprint{0707.4037})
+
+\bibitem{Henn:2014qga}
+Henn J~M 2015 {\em J. Phys. A\/} {\bf 48} 153001 (\textit{Preprint}
+  \eprint{1412.2296})
+
+\bibitem{Ablinger:2015tua}
+Ablinger J, Behring A, Bl\"umlein J, De~Freitas A, von Manteuffel A and
+  Schneider C 2016 {\em Comput. Phys. Commun.\/} {\bf 202} 33--112
+  (\textit{Preprint} \eprint{1509.08324})
+
+\bibitem{Ablinger:2018zwz}
+Ablinger J, Bl\"umlein J, Marquard P, Rana N and Schneider C 2019 {\em Nucl.
+  Phys. B\/} {\bf 939} 253--291 (\textit{Preprint} \eprint{1810.12261})
+
+\bibitem{Goncharov:polylog}
+Goncharov A 1995 {\em Proceedings of the International Congress of
+  Mathematicians\/} {\bf 1,2} 374--387
+
+\bibitem{Goncharov:2001iea}
+Goncharov A~B 2001  (\textit{Preprint} \eprint{math/0103059})
+
+\bibitem{Remiddi:1999ew}
+Remiddi E and Vermaseren J 2000 {\em Int.J.Mod.Phys.\/} {\bf A15} 725--754
+  (\textit{Preprint} \eprint{hep-ph/9905237})
+
+\bibitem{Chen:1977oja}
+Chen K~T 1977 {\em Bull. Am. Math. Soc.\/} {\bf 83} 831--879
+
+\bibitem{Moriello:2019yhu}
+Moriello F 2020 {\em JHEP\/} {\bf 01} 150 (\textit{Preprint}
+  \eprint{1907.13234})
+
+\bibitem{Hidding:2020ytt}
+Hidding M 2021 {\em Comput. Phys. Commun.\/} {\bf 269} 108125
+  (\textit{Preprint} \eprint{2006.05510})
+
+\bibitem{SeaFire}
+Armadillo T, Bonciani R, Devoto S, Rana N and Vicini A \emph{in preparation}
+
+\bibitem{Vollinga:2004sn}
+Vollinga J and Weinzierl S 2005 {\em Comput. Phys. Commun.\/} {\bf 167} 177
+  (\textit{Preprint} \eprint{hep-ph/0410259})
+
+\bibitem{Degrassi:2003rw}
+Degrassi G and Vicini A 2004 {\em Phys. Rev.\/} {\bf D69} 073007
+  (\textit{Preprint} \eprint{hep-ph/0307122})
+
+\bibitem{Denner:2005fg}
+Denner A, Dittmaier S, Roth M and Wieders L~H 2005 {\em Nucl. Phys. B\/} {\bf
+  724} 247--294 [Erratum: Nucl.Phys.B 854, 504--507 (2012)] (\textit{Preprint}
+  \eprint{hep-ph/0505042})
+
+\bibitem{Sirlin:1980nh}
+Sirlin A 1980 {\em Phys. Rev.\/} {\bf D22} 971--981
+
+\bibitem{Kniehl:1989yc}
+Kniehl B~A 1990 {\em Nucl. Phys. B\/} {\bf 347} 86--104
+
+\bibitem{Djouadi:1993ss}
+Djouadi A and Gambino P 1994 {\em Phys. Rev. D\/} {\bf 49} 3499--3511 [Erratum:
+  Phys.Rev.D 53, 4111 (1996)] (\textit{Preprint} \eprint{hep-ph/9309298})
+
+\bibitem{Catani:1998bh}
+Catani S 1998 {\em Phys. Lett. B\/} {\bf 427} 161--171 (\textit{Preprint}
+  \eprint{hep-ph/9802439})
+
+\bibitem{Sterman:2002qn}
+Sterman G~F and Tejeda-Yeomans M~E 2003 {\em Phys. Lett. B\/} {\bf 552} 48--56
+  (\textit{Preprint} \eprint{hep-ph/0210130})
+
+\bibitem{Becher:2009cu}
+Becher T and Neubert M 2009 {\em Phys. Rev. Lett.\/} {\bf 102} 162001 [Erratum:
+  Phys.Rev.Lett. 111, 199905 (2013)] (\textit{Preprint} \eprint{0901.0722})
+
+\bibitem{Gardi:2009qi}
+Gardi E and Magnea L 2009 {\em JHEP\/} {\bf 03} 079 (\textit{Preprint}
+  \eprint{0901.1091})
+
+\bibitem{Kilgore:2011pa}
+Kilgore W~B and Sturm C 2012 {\em Phys. Rev. D\/} {\bf 85} 033005
+  (\textit{Preprint} \eprint{1107.4798})
+
+\bibitem{Kilgore:2013uta}
+Kilgore W~B 2013 {\em Eur. Phys. J. C\/} {\bf 73} 2603 (\textit{Preprint}
+  \eprint{1308.1055})
+
+\bibitem{Mitov:2006xs}
+Mitov A and Moch S 2007 {\em JHEP\/} {\bf 05} 001 (\textit{Preprint}
+  \eprint{hep-ph/0612149})
+
+\bibitem{Becher:2007cu}
+Becher T and Melnikov K 2007 {\em JHEP\/} {\bf 06} 084 (\textit{Preprint}
+  \eprint{0704.3582})
+
+\bibitem{Becher:2009kw}
+Becher T and Neubert M 2009 {\em Phys. Rev. D\/} {\bf 79} 125004 [Erratum:
+  Phys.Rev.D 80, 109901 (2009)] (\textit{Preprint} \eprint{0904.1021})
+
+\bibitem{Ahmed:2017gyt}
+Ahmed T, Henn J~M and Steinhauser M 2017 {\em JHEP\/} {\bf 06} 125
+  (\textit{Preprint} \eprint{1704.07846})
+
+\bibitem{Blumlein:2018tmz}
+Bl\"umlein J, Marquard P and Rana N 2019 {\em Phys. Rev. D\/} {\bf 99} 016013
+  (\textit{Preprint} \eprint{1810.08943})
+
+\bibitem{Catani:2014qha}
+Catani S, Grazzini M and Torre A 2014 {\em Nucl. Phys. B\/} {\bf 890} 518--538
+  (\textit{Preprint} \eprint{1408.4564})
+
+\bibitem{Catani:2019iny}
+Catani S, Devoto S, Grazzini M, Kallweit S, Mazzitelli J and Sargsyan H 2019
+  {\em Phys. Rev. D\/} {\bf 99} 051501 (\textit{Preprint} \eprint{1901.04005})
+
+\bibitem{Catani:2019hip}
+Catani S, Devoto S, Grazzini M, Kallweit S and Mazzitelli J 2019 {\em JHEP\/}
+  {\bf 07} 100 (\textit{Preprint} \eprint{1906.06535})
+
+\bibitem{Catani:2020kkl}
+Catani S, Devoto S, Grazzini M, Kallweit S and Mazzitelli J 2021 {\em JHEP\/}
+  {\bf 03} 029 (\textit{Preprint} \eprint{2010.11906})
+
+\bibitem{Buonocore:2019puv}
+Buonocore L, Grazzini M and Tramontano F 2020 {\em Eur. Phys. J. C\/} {\bf 80}
+  254 (\textit{Preprint} \eprint{1911.10166})
+
+\bibitem{Catani:1996jh}
+Catani S and Seymour M~H 1996 {\em Phys. Lett. B\/} {\bf 378} 287--301
+  (\textit{Preprint} \eprint{hep-ph/9602277})
+
+\bibitem{Catani:1996vz}
+Catani S and Seymour M~H 1997 {\em Nucl. Phys. B\/} {\bf 485} 291--419
+  [Erratum: Nucl.Phys.B 510, 503--504 (1998)] (\textit{Preprint}
+  \eprint{hep-ph/9605323})
+
+\bibitem{Catani:2002hc}
+Catani S, Dittmaier S, Seymour M~H and Trocsanyi Z 2002 {\em Nucl. Phys. B\/}
+  {\bf 627} 189--265 (\textit{Preprint} \eprint{hep-ph/0201036})
+
+\bibitem{Frixione:1995ms}
+Frixione S, Kunszt Z and Signer A 1996 {\em Nucl. Phys. B\/} {\bf 467} 399--442
+  (\textit{Preprint} \eprint{hep-ph/9512328})
+
+\bibitem{Proceedings:2018jsb}
+ 2018 {\em {Les Houches 2017: Physics at TeV Colliders Standard Model Working
+  Group Report}\/} (\textit{Preprint} \eprint{1803.07977})
+
+\bibitem{Catani:2007vq}
+Catani S and Grazzini M 2007 {\em Phys. Rev. Lett.\/} {\bf 98} 222002
+  (\textit{Preprint} \eprint{hep-ph/0703012})
+
+\bibitem{Naterop:2019xaf}
+Naterop L, Signer A and Ulrich Y 2020 {\em Comput. Phys. Commun.\/} {\bf 253}
+  107165 (\textit{Preprint} \eprint{1909.01656})
+
+\bibitem{Ablinger:2010kw}
+Ablinger J 2009 {\em Master's thesis, Linz U.\/} (\textit{Preprint}
+  \eprint{1011.1176})
+
+\bibitem{Ablinger:2014rba}
+Ablinger J 2014 {\em PoS\/} {\bf LL2014} 019 (\textit{Preprint}
+  \eprint{1407.6180})
+
+\bibitem{Duhr:2019tlz}
+Duhr C and Dulat F 2019 {\em JHEP\/} {\bf 08} 135 (\textit{Preprint}
+  \eprint{1904.07279})
+
+\end{thebibliography}

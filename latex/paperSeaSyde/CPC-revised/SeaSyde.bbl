@@ -1,0 +1,497 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Heinrich:2020ybq}
+G.~Heinrich, {Collider Physics at the Precision Frontier}, Phys. Rept. 922
+  (2021) 1--69.
+\newblock \href {http://arxiv.org/abs/2009.00516} {\path{arXiv:2009.00516}},
+  \href {https://doi.org/10.1016/j.physrep.2021.03.006}
+  {\path{doi:10.1016/j.physrep.2021.03.006}}.
+
+\bibitem{Weinzierl:2022eaz}
+S.~Weinzierl, {Feynman Integrals} (1 2022).
+\newblock \href {http://arxiv.org/abs/2201.03593} {\path{arXiv:2201.03593}}.
+
+\bibitem{Bourjaily:2022bwx}
+J.~L. Bourjaily, et~al., {Functions Beyond Multiple Polylogarithms for
+  Precision Collider Physics}, in: {2022 Snowmass Summer Study}, 2022.
+\newblock \href {http://arxiv.org/abs/2203.07088} {\path{arXiv:2203.07088}}.
+
+\bibitem{Abreu:2022mfk}
+S.~Abreu, R.~Britto, C.~Duhr, {The SAGEX Review on Scattering Amplitudes,
+  Chapter 3: Mathematical structures in Feynman integrals} (3 2022).
+\newblock \href {http://arxiv.org/abs/2203.13014} {\path{arXiv:2203.13014}}.
+
+\bibitem{Blumlein:2022zkr}
+J.~Bl\"umlein, C.~Schneider, {The SAGEX Review on Scattering Amplitudes,
+  Chapter 4: Multi-loop Feynman Integrals} (3 2022).
+\newblock \href {http://arxiv.org/abs/2203.13015} {\path{arXiv:2203.13015}}.
+
+\bibitem{Smirnov:2015mct}
+A.~V. Smirnov, {FIESTA4: Optimized Feynman integral calculations with GPU
+  support}, Comput. Phys. Commun. 204 (2016) 189--199.
+\newblock \href {http://arxiv.org/abs/1511.03614} {\path{arXiv:1511.03614}},
+  \href {https://doi.org/10.1016/j.cpc.2016.03.013}
+  {\path{doi:10.1016/j.cpc.2016.03.013}}.
+
+\bibitem{Borowka:2017idc}
+S.~Borowka, G.~Heinrich, S.~Jahn, S.~P. Jones, M.~Kerner, J.~Schlenk, T.~Zirke,
+  {pySecDec: a toolbox for the numerical evaluation of multi-scale integrals},
+  Comput. Phys. Commun. 222 (2018) 313--326.
+\newblock \href {http://arxiv.org/abs/1703.09692} {\path{arXiv:1703.09692}},
+  \href {https://doi.org/10.1016/j.cpc.2017.09.015}
+  {\path{doi:10.1016/j.cpc.2017.09.015}}.
+
+\bibitem{Kotikov:1990kg}
+A.~Kotikov, {Differential equations method: New technique for massive Feynman
+  diagrams calculation}, Phys.Lett. B254 (1991) 158--164.
+\newblock \href {https://doi.org/10.1016/0370-2693(91)90413-K}
+  {\path{doi:10.1016/0370-2693(91)90413-K}}.
+
+\bibitem{Kotikov:1991pm}
+A.~V. Kotikov, {Differential equation method: The Calculation of N point
+  Feynman diagrams}, Phys. Lett. B 267 (1991) 123--127, [Erratum: Phys.Lett.B
+  295, 409--409 (1992)].
+\newblock \href {https://doi.org/10.1016/0370-2693(91)90536-Y}
+  {\path{doi:10.1016/0370-2693(91)90536-Y}}.
+
+\bibitem{Bern:1993kr}
+Z.~Bern, L.~J. Dixon, D.~A. Kosower, {Dimensionally regulated pentagon
+  integrals}, Nucl. Phys. B 412 (1994) 751--816.
+\newblock \href {http://arxiv.org/abs/hep-ph/9306240}
+  {\path{arXiv:hep-ph/9306240}}, \href
+  {https://doi.org/10.1016/0550-3213(94)90398-0}
+  {\path{doi:10.1016/0550-3213(94)90398-0}}.
+
+\bibitem{Remiddi:1997ny}
+E.~Remiddi, {Differential equations for Feynman graph amplitudes}, Nuovo Cim.
+  A110 (1997) 1435--1452.
+\newblock \href {http://arxiv.org/abs/hep-th/9711188}
+  {\path{arXiv:hep-th/9711188}}.
+
+\bibitem{Gehrmann:1999as}
+T.~Gehrmann, E.~Remiddi, {Differential equations for two loop four point
+  functions}, Nucl.Phys. B580 (2000) 485--518.
+\newblock \href {http://arxiv.org/abs/hep-ph/9912329}
+  {\path{arXiv:hep-ph/9912329}}, \href
+  {https://doi.org/10.1016/S0550-3213(00)00223-6}
+  {\path{doi:10.1016/S0550-3213(00)00223-6}}.
+
+\bibitem{Argeri:2007up}
+M.~Argeri, P.~Mastrolia, {Feynman Diagrams and Differential Equations},
+  Int.J.Mod.Phys. A22 (2007) 4375--4436.
+\newblock \href {http://arxiv.org/abs/0707.4037} {\path{arXiv:0707.4037}},
+  \href {https://doi.org/10.1142/S0217751X07037147}
+  {\path{doi:10.1142/S0217751X07037147}}.
+
+\bibitem{Henn:2013pwa}
+J.~M. Henn, {Multiloop integrals in dimensional regularization made simple},
+  Phys.Rev.Lett. 110 (2013) 251601.
+\newblock \href {http://arxiv.org/abs/1304.1806} {\path{arXiv:1304.1806}},
+  \href {https://doi.org/10.1103/PhysRevLett.110.251601}
+  {\path{doi:10.1103/PhysRevLett.110.251601}}.
+
+\bibitem{Henn:2014qga}
+J.~M. Henn, {Lectures on differential equations for Feynman integrals}, J.
+  Phys. A48 (2015) 153001.
+\newblock \href {http://arxiv.org/abs/1412.2296} {\path{arXiv:1412.2296}},
+  \href {https://doi.org/10.1088/1751-8113/48/15/153001}
+  {\path{doi:10.1088/1751-8113/48/15/153001}}.
+
+\bibitem{Goncharov:polylog}
+A.~Goncharov, {Polylogarithms in arithmetic and geometry}, Proceedings of the
+  International Congress of Mathematicians 1,2 (1995) 374--387.
+
+\bibitem{Goncharov:1998kja}
+A.~B. Goncharov, {Multiple polylogarithms, cyclotomy and modular complexes},
+  Math. Res. Lett. 5 (1998) 497--516.
+\newblock \href {http://arxiv.org/abs/1105.2076} {\path{arXiv:1105.2076}},
+  \href {https://doi.org/10.4310/MRL.1998.v5.n4.a7}
+  {\path{doi:10.4310/MRL.1998.v5.n4.a7}}.
+
+\bibitem{Goncharov:2001iea}
+A.~B. Goncharov, {Multiple polylogarithms and mixed Tate motives} (3 2001).
+\newblock \href {http://arxiv.org/abs/math/0103059}
+  {\path{arXiv:math/0103059}}.
+
+\bibitem{Remiddi:1999ew}
+E.~Remiddi, J.~Vermaseren, {Harmonic polylogarithms}, Int.J.Mod.Phys. A15
+  (2000) 725--754.
+\newblock \href {http://arxiv.org/abs/hep-ph/9905237}
+  {\path{arXiv:hep-ph/9905237}}, \href
+  {https://doi.org/10.1142/S0217751X00000367}
+  {\path{doi:10.1142/S0217751X00000367}}.
+
+\bibitem{Gehrmann:2001pz}
+T.~Gehrmann, E.~Remiddi, {Numerical evaluation of harmonic polylogarithms},
+  Comput.Phys.Commun. 141 (2001) 296--312.
+\newblock \href {http://arxiv.org/abs/hep-ph/0107173}
+  {\path{arXiv:hep-ph/0107173}}, \href
+  {https://doi.org/10.1016/S0010-4655(01)00411-8}
+  {\path{doi:10.1016/S0010-4655(01)00411-8}}.
+
+\bibitem{Gehrmann:2001jv}
+T.~Gehrmann, E.~Remiddi, {Numerical evaluation of two-dimensional harmonic
+  polylogarithms}, Comput.Phys.Commun. 144 (2002) 200--223.
+\newblock \href {http://arxiv.org/abs/hep-ph/0111255}
+  {\path{arXiv:hep-ph/0111255}}, \href
+  {https://doi.org/10.1016/S0010-4655(02)00139-X}
+  {\path{doi:10.1016/S0010-4655(02)00139-X}}.
+
+\bibitem{Bauer:2000cp}
+C.~W. Bauer, A.~Frink, R.~Kreckel, {Introduction to the GiNaC framework for
+  symbolic computation within the C++ programming language} (2000).
+\newblock \href {http://arxiv.org/abs/cs/0004015} {\path{arXiv:cs/0004015}}.
+
+\bibitem{Vollinga:2004sn}
+J.~Vollinga, S.~Weinzierl, {Numerical evaluation of multiple polylogarithms},
+  Comput.Phys.Commun. 167 (2005) 177.
+\newblock \href {http://arxiv.org/abs/hep-ph/0410259}
+  {\path{arXiv:hep-ph/0410259}}, \href
+  {https://doi.org/10.1016/j.cpc.2004.12.009}
+  {\path{doi:10.1016/j.cpc.2004.12.009}}.
+
+\bibitem{Bonciani:2010ms}
+R.~Bonciani, G.~Degrassi, A.~Vicini, {On the Generalized Harmonic
+  Polylogarithms of One Complex Variable}, Comput. Phys. Commun. 182 (2011)
+  1253--1264.
+\newblock \href {http://arxiv.org/abs/1007.1891} {\path{arXiv:1007.1891}},
+  \href {https://doi.org/10.1016/j.cpc.2011.02.011}
+  {\path{doi:10.1016/j.cpc.2011.02.011}}.
+
+\bibitem{Naterop:2019xaf}
+L.~Naterop, A.~Signer, Y.~Ulrich, {handyG \textemdash{}Rapid numerical
+  evaluation of generalised polylogarithms in Fortran}, Comput. Phys. Commun.
+  253 (2020) 107165.
+\newblock \href {http://arxiv.org/abs/1909.01656} {\path{arXiv:1909.01656}},
+  \href {https://doi.org/10.1016/j.cpc.2020.107165}
+  {\path{doi:10.1016/j.cpc.2020.107165}}.
+
+\bibitem{Adams:2016xah}
+L.~Adams, C.~Bogner, A.~Schweitzer, S.~Weinzierl, {The kite integral to all
+  orders in terms of elliptic polylogarithms}, J. Math. Phys. 57~(12) (2016)
+  122302.
+\newblock \href {http://arxiv.org/abs/1607.01571} {\path{arXiv:1607.01571}},
+  \href {https://doi.org/10.1063/1.4969060} {\path{doi:10.1063/1.4969060}}.
+
+\bibitem{Remiddi:2017har}
+E.~Remiddi, L.~Tancredi, {An Elliptic Generalization of Multiple
+  Polylogarithms}, Nucl. Phys. B 925 (2017) 212--251.
+\newblock \href {http://arxiv.org/abs/1709.03622} {\path{arXiv:1709.03622}},
+  \href {https://doi.org/10.1016/j.nuclphysb.2017.10.007}
+  {\path{doi:10.1016/j.nuclphysb.2017.10.007}}.
+
+\bibitem{Broedel:2017kkb}
+J.~Broedel, C.~Duhr, F.~Dulat, L.~Tancredi, {Elliptic polylogarithms and
+  iterated integrals on elliptic curves. Part I: general formalism}, JHEP 05
+  (2018) 093.
+\newblock \href {http://arxiv.org/abs/1712.07089} {\path{arXiv:1712.07089}},
+  \href {https://doi.org/10.1007/JHEP05(2018)093}
+  {\path{doi:10.1007/JHEP05(2018)093}}.
+
+\bibitem{Broedel:2017siw}
+J.~Broedel, C.~Duhr, F.~Dulat, L.~Tancredi, {Elliptic polylogarithms and
+  iterated integrals on elliptic curves II: an application to the sunrise
+  integral}, Phys. Rev. D 97~(11) (2018) 116009.
+\newblock \href {http://arxiv.org/abs/1712.07095} {\path{arXiv:1712.07095}},
+  \href {https://doi.org/10.1103/PhysRevD.97.116009}
+  {\path{doi:10.1103/PhysRevD.97.116009}}.
+
+\bibitem{Broedel:2018iwv}
+J.~Broedel, C.~Duhr, F.~Dulat, B.~Penante, L.~Tancredi, {Elliptic symbol
+  calculus: from elliptic polylogarithms to iterated integrals of Eisenstein
+  series}, JHEP 08 (2018) 014.
+\newblock \href {http://arxiv.org/abs/1803.10256} {\path{arXiv:1803.10256}},
+  \href {https://doi.org/10.1007/JHEP08(2018)014}
+  {\path{doi:10.1007/JHEP08(2018)014}}.
+
+\bibitem{Ablinger:2017bjx}
+J.~Ablinger, J.~Bl\"umlein, A.~De~Freitas, M.~van Hoeij, E.~Imamoglu, C.~G.
+  Raab, C.~S. Radu, C.~Schneider, {Iterated Elliptic and Hypergeometric
+  Integrals for Feynman Diagrams}, J. Math. Phys. 59~(6) (2018) 062305.
+\newblock \href {http://arxiv.org/abs/1706.01299} {\path{arXiv:1706.01299}},
+  \href {https://doi.org/10.1063/1.4986417} {\path{doi:10.1063/1.4986417}}.
+
+\bibitem{Walden:2020odh}
+M.~Walden, S.~Weinzierl, {Numerical evaluation of iterated integrals related to
+  elliptic Feynman integrals}, Comput. Phys. Commun. 265 (2021) 108020.
+\newblock \href {http://arxiv.org/abs/2010.05271} {\path{arXiv:2010.05271}},
+  \href {https://doi.org/10.1016/j.cpc.2021.108020}
+  {\path{doi:10.1016/j.cpc.2021.108020}}.
+
+\bibitem{Czakon:2008zk}
+M.~Czakon, {Tops from Light Quarks: Full Mass Dependence at Two-Loops in QCD},
+  Phys. Lett. B 664 (2008) 307--314.
+\newblock \href {http://arxiv.org/abs/0803.1400} {\path{arXiv:0803.1400}},
+  \href {https://doi.org/10.1016/j.physletb.2008.05.028}
+  {\path{doi:10.1016/j.physletb.2008.05.028}}.
+
+\bibitem{Mandal:2018cdj}
+M.~K. Mandal, X.~Zhao, {Evaluating multi-loop Feynman integrals numerically
+  through differential equations}, JHEP 03 (2019) 190.
+\newblock \href {http://arxiv.org/abs/1812.03060} {\path{arXiv:1812.03060}},
+  \href {https://doi.org/10.1007/JHEP03(2019)190}
+  {\path{doi:10.1007/JHEP03(2019)190}}.
+
+\bibitem{Pozzorini:2005ff}
+S.~Pozzorini, E.~Remiddi, {Precise numerical evaluation of the two loop sunrise
+  graph master integrals in the equal mass case}, Comput. Phys. Commun. 175
+  (2006) 381--387.
+\newblock \href {http://arxiv.org/abs/hep-ph/0505041}
+  {\path{arXiv:hep-ph/0505041}}, \href
+  {https://doi.org/10.1016/j.cpc.2006.05.005}
+  {\path{doi:10.1016/j.cpc.2006.05.005}}.
+
+\bibitem{Aglietti:2007as}
+U.~Aglietti, R.~Bonciani, L.~Grassi, E.~Remiddi, {The Two loop crossed ladder
+  vertex diagram with two massive exchanges}, Nucl. Phys. B789 (2008) 45--83.
+\newblock \href {http://arxiv.org/abs/0705.2616} {\path{arXiv:0705.2616}},
+  \href {https://doi.org/10.1016/j.nuclphysb.2007.07.019}
+  {\path{doi:10.1016/j.nuclphysb.2007.07.019}}.
+
+\bibitem{Lee:2017qql}
+R.~N. Lee, A.~V. Smirnov, V.~A. Smirnov, {Solving differential equations for
+  Feynman integrals by expansions near singular points}, JHEP 03 (2018) 008.
+\newblock \href {http://arxiv.org/abs/1709.07525} {\path{arXiv:1709.07525}},
+  \href {https://doi.org/10.1007/JHEP03(2018)008}
+  {\path{doi:10.1007/JHEP03(2018)008}}.
+
+\bibitem{Lee:2018ojn}
+R.~N. Lee, A.~V. Smirnov, V.~A. Smirnov, {Evaluating elliptic master integrals
+  at special kinematic values: using differential equations and their solutions
+  via expansions near singular points}, JHEP 07 (2018) 102.
+\newblock \href {http://arxiv.org/abs/1805.00227} {\path{arXiv:1805.00227}},
+  \href {https://doi.org/10.1007/JHEP07(2018)102}
+  {\path{doi:10.1007/JHEP07(2018)102}}.
+
+\bibitem{Bonciani:2018uvv}
+R.~Bonciani, G.~Degrassi, P.~P. Giardino, R.~Groeber, {A Numerical Routine for
+  the Crossed Vertex Diagram with a Massive-Particle Loop}, Comput. Phys.
+  Commun. 241 (2019) 122--131.
+\newblock \href {http://arxiv.org/abs/1812.02698} {\path{arXiv:1812.02698}},
+  \href {https://doi.org/10.1016/j.cpc.2019.03.014}
+  {\path{doi:10.1016/j.cpc.2019.03.014}}.
+
+\bibitem{Fael:2021kyg}
+M.~Fael, F.~Lange, K.~Sch\"onwald, M.~Steinhauser, {A semi-analytic method to
+  compute Feynman integrals applied to four-loop corrections to the $
+  \overline{\mathrm{MS}} $-pole quark mass relation}, JHEP 09 (2021) 152.
+\newblock \href {http://arxiv.org/abs/2106.05296} {\path{arXiv:2106.05296}},
+  \href {https://doi.org/10.1007/JHEP09(2021)152}
+  {\path{doi:10.1007/JHEP09(2021)152}}.
+
+\bibitem{Fael:2022rgm}
+M.~Fael, F.~Lange, K.~Sch\"onwald, M.~Steinhauser, {Massive Vector Form Factors
+  to Three Loops}, Phys. Rev. Lett. 128~(17) (2022) 172003.
+\newblock \href {http://arxiv.org/abs/2202.05276} {\path{arXiv:2202.05276}},
+  \href {https://doi.org/10.1103/PhysRevLett.128.172003}
+  {\path{doi:10.1103/PhysRevLett.128.172003}}.
+
+\bibitem{Moriello:2019yhu}
+F.~Moriello, {Generalised power series expansions for the elliptic planar
+  families of Higgs + jet production at two loops}, JHEP 01 (2020) 150.
+\newblock \href {http://arxiv.org/abs/1907.13234} {\path{arXiv:1907.13234}},
+  \href {https://doi.org/10.1007/JHEP01(2020)150}
+  {\path{doi:10.1007/JHEP01(2020)150}}.
+
+\bibitem{Hidding:2020ytt}
+M.~Hidding, {DiffExp, a Mathematica package for computing Feynman integrals in
+  terms of one-dimensional series expansions}, Comput. Phys. Commun. 269 (2021)
+  108125.
+\newblock \href {http://arxiv.org/abs/2006.05510} {\path{arXiv:2006.05510}},
+  \href {https://doi.org/10.1016/j.cpc.2021.108125}
+  {\path{doi:10.1016/j.cpc.2021.108125}}.
+
+\bibitem{Bonciani:2019jyb}
+R.~Bonciani, V.~Del~Duca, H.~Frellesvig, J.~M. Henn, M.~Hidding, L.~Maestri,
+  F.~Moriello, G.~Salvatori, V.~A. Smirnov, {Evaluating a family of two-loop
+  non-planar master integrals for Higgs + jet production with full heavy-quark
+  mass dependence}, JHEP 01 (2020) 132.
+\newblock \href {http://arxiv.org/abs/1907.13156} {\path{arXiv:1907.13156}},
+  \href {https://doi.org/10.1007/JHEP01(2020)132}
+  {\path{doi:10.1007/JHEP01(2020)132}}.
+
+\bibitem{Frellesvig:2019byn}
+H.~Frellesvig, M.~Hidding, L.~Maestri, F.~Moriello, G.~Salvatori, {The complete
+  set of two-loop master integrals for Higgs + jet production in QCD}, JHEP 06
+  (2020) 093.
+\newblock \href {http://arxiv.org/abs/1911.06308} {\path{arXiv:1911.06308}},
+  \href {https://doi.org/10.1007/JHEP06(2020)093}
+  {\path{doi:10.1007/JHEP06(2020)093}}.
+
+\bibitem{Abreu:2020jxa}
+S.~Abreu, H.~Ita, F.~Moriello, B.~Page, W.~Tschernow, M.~Zeng, {Two-Loop
+  Integrals for Planar Five-Point One-Mass Processes}, JHEP 11 (2020) 117.
+\newblock \href {http://arxiv.org/abs/2005.04195} {\path{arXiv:2005.04195}},
+  \href {https://doi.org/10.1007/JHEP11(2020)117}
+  {\path{doi:10.1007/JHEP11(2020)117}}.
+
+\bibitem{Dubovyk:2022frj}
+I.~Dubovyk, A.~Freitas, J.~Gluza, K.~Grzanka, M.~Hidding, J.~Usovitsch,
+  {Evaluation of multi-loop multi-scale Feynman integrals for precision
+  physics} (1 2022).
+\newblock \href {http://arxiv.org/abs/2201.02576} {\path{arXiv:2201.02576}}.
+
+\bibitem{Bonciani:2021zzf}
+R.~Bonciani, L.~Buonocore, M.~Grazzini, S.~Kallweit, N.~Rana, F.~Tramontano,
+  A.~Vicini, {Mixed strong$-$electroweak corrections to the Drell$-$Yan
+  process} (6 2021).
+\newblock \href {http://arxiv.org/abs/2106.11953} {\path{arXiv:2106.11953}}.
+
+\bibitem{Becchetti:2020wof}
+M.~Becchetti, R.~Bonciani, V.~Del~Duca, V.~Hirschi, F.~Moriello, A.~Schweitzer,
+  {Next-to-leading order corrections to light-quark mixed QCD-EW contributions
+  to Higgs boson production}, Phys. Rev. D 103~(5) (2021) 054037.
+\newblock \href {http://arxiv.org/abs/2010.09451} {\path{arXiv:2010.09451}},
+  \href {https://doi.org/10.1103/PhysRevD.103.054037}
+  {\path{doi:10.1103/PhysRevD.103.054037}}.
+
+\bibitem{Becchetti:2021axs}
+M.~Becchetti, F.~Moriello, A.~Schweitzer, {Two-loop amplitude for mixed QCD-EW
+  corrections to $gg \to Hg$} (12 2021).
+\newblock \href {http://arxiv.org/abs/2112.07578} {\path{arXiv:2112.07578}}.
+
+\bibitem{Denner:1999gp}
+A.~Denner, S.~Dittmaier, M.~Roth, D.~Wackeroth, {Predictions for all processes
+  e+ e- ---\ensuremath{>} 4 fermions + gamma}, Nucl. Phys. B 560 (1999) 33--65.
+\newblock \href {http://arxiv.org/abs/hep-ph/9904472}
+  {\path{arXiv:hep-ph/9904472}}, \href
+  {https://doi.org/10.1016/S0550-3213(99)00437-X}
+  {\path{doi:10.1016/S0550-3213(99)00437-X}}.
+
+\bibitem{Denner:2005fg}
+A.~Denner, S.~Dittmaier, M.~Roth, L.~H. Wieders, {Electroweak corrections to
+  charged-current e+ e- ---\ensuremath{>} 4 fermion processes: Technical
+  details and further results}, Nucl. Phys. B 724 (2005) 247--294, [Erratum:
+  Nucl.Phys.B 854, 504--507 (2012)].
+\newblock \href {http://arxiv.org/abs/hep-ph/0505042}
+  {\path{arXiv:hep-ph/0505042}}, \href
+  {https://doi.org/10.1016/j.nuclphysb.2011.09.001}
+  {\path{doi:10.1016/j.nuclphysb.2011.09.001}}.
+
+\bibitem{Armadillo:2022bgm}
+T.~Armadillo, R.~Bonciani, S.~Devoto, N.~Rana, A.~Vicini, {Two-loop mixed
+  QCD-EW corrections to neutral current Drell-Yan} (1 2022).
+\newblock \href {http://arxiv.org/abs/2201.01754} {\path{arXiv:2201.01754}}.
+
+\bibitem{Tkachov:1981wb}
+F.~Tkachov, {A Theorem on Analytical Calculability of Four Loop Renormalization
+  Group Functions}, Phys.Lett. B100 (1981) 65--68.
+\newblock \href {https://doi.org/10.1016/0370-2693(81)90288-4}
+  {\path{doi:10.1016/0370-2693(81)90288-4}}.
+
+\bibitem{Chetyrkin:1981qh}
+K.~Chetyrkin, F.~Tkachov, {Integration by Parts: The Algorithm to Calculate
+  beta Functions in 4 Loops}, Nucl.Phys. B192 (1981) 159--204.
+\newblock \href {https://doi.org/10.1016/0550-3213(81)90199-1}
+  {\path{doi:10.1016/0550-3213(81)90199-1}}.
+
+\bibitem{Laporta:2001dd}
+S.~Laporta, {High precision calculation of multiloop Feynman integrals by
+  difference equations}, Int.J.Mod.Phys. A15 (2000) 5087--5159.
+\newblock \href {http://arxiv.org/abs/hep-ph/0102033}
+  {\path{arXiv:hep-ph/0102033}}, \href
+  {https://doi.org/10.1016/S0217-751X(00)00215-7}
+  {\path{doi:10.1016/S0217-751X(00)00215-7}}.
+
+\bibitem{Anastasiou:2004vj}
+C.~Anastasiou, A.~Lazopoulos, {Automatic integral reduction for higher order
+  perturbative calculations}, JHEP 07 (2004) 046.
+\newblock \href {http://arxiv.org/abs/hep-ph/0404258}
+  {\path{arXiv:hep-ph/0404258}}, \href
+  {https://doi.org/10.1088/1126-6708/2004/07/046}
+  {\path{doi:10.1088/1126-6708/2004/07/046}}.
+
+\bibitem{Studerus:2009ye}
+C.~Studerus, {Reduze-Feynman Integral Reduction in C++}, Comput.Phys.Commun.
+  181 (2010) 1293--1300.
+\newblock \href {http://arxiv.org/abs/0912.2546} {\path{arXiv:0912.2546}},
+  \href {https://doi.org/10.1016/j.cpc.2010.03.012}
+  {\path{doi:10.1016/j.cpc.2010.03.012}}.
+
+\bibitem{vonManteuffel:2012np}
+A.~von Manteuffel, C.~Studerus, {Reduze 2 - Distributed Feynman Integral
+  Reduction} (2012).
+\newblock \href {http://arxiv.org/abs/1201.4330} {\path{arXiv:1201.4330}}.
+
+\bibitem{Lee:2012cn}
+R.~N. Lee, {Presenting LiteRed: a tool for the Loop InTEgrals REDuction}
+  (2012).
+\newblock \href {http://arxiv.org/abs/1212.2685} {\path{arXiv:1212.2685}}.
+
+\bibitem{Lee:2013mka}
+R.~N. Lee, {LiteRed 1.4: a powerful tool for reduction of multiloop integrals},
+  J. Phys. Conf. Ser. 523 (2014) 012059.
+\newblock \href {http://arxiv.org/abs/1310.1145} {\path{arXiv:1310.1145}},
+  \href {https://doi.org/10.1088/1742-6596/523/1/012059}
+  {\path{doi:10.1088/1742-6596/523/1/012059}}.
+
+\bibitem{Smirnov:2008iw}
+A.~V. Smirnov, {Algorithm FIRE -- Feynman Integral REduction}, JHEP 10 (2008)
+  107.
+\newblock \href {http://arxiv.org/abs/0807.3243} {\path{arXiv:0807.3243}},
+  \href {https://doi.org/10.1088/1126-6708/2008/10/107}
+  {\path{doi:10.1088/1126-6708/2008/10/107}}.
+
+\bibitem{Smirnov:2014hma}
+A.~V. Smirnov, {FIRE5: a C++ implementation of Feynman Integral REduction},
+  Comput. Phys. Commun. 189 (2014) 182--191.
+\newblock \href {http://arxiv.org/abs/1408.2372} {\path{arXiv:1408.2372}},
+  \href {https://doi.org/10.1016/j.cpc.2014.11.024}
+  {\path{doi:10.1016/j.cpc.2014.11.024}}.
+
+\bibitem{Maierhoefer:2017hyi}
+P.~Maierhoefer, J.~Usovitsch, P.~Uwer, {Kira - A Feynman Integral Reduction
+  Program } (2017).
+\newblock \href {http://arxiv.org/abs/1705.05610} {\path{arXiv:1705.05610}}.
+
+\bibitem{Klappert:2020nbg}
+J.~Klappert, F.~Lange, P.~Maierh\"ofer, J.~Usovitsch, {Integral reduction with
+  Kira 2.0 and finite field methods}, Comput. Phys. Commun. 266 (2021) 108024.
+\newblock \href {http://arxiv.org/abs/2008.06494} {\path{arXiv:2008.06494}},
+  \href {https://doi.org/10.1016/j.cpc.2021.108024}
+  {\path{doi:10.1016/j.cpc.2021.108024}}.
+
+\bibitem{Bonciani:2016ypc}
+R.~Bonciani, S.~Di~Vita, P.~Mastrolia, U.~Schubert, {Two-Loop Master Integrals
+  for the mixed EW-QCD virtual corrections to Drell-Yan scattering}, JHEP 09
+  (2016) 091.
+\newblock \href {http://arxiv.org/abs/1604.08581} {\path{arXiv:1604.08581}},
+  \href {https://doi.org/10.1007/JHEP09(2016)091}
+  {\path{doi:10.1007/JHEP09(2016)091}}.
+
+\bibitem{Chen:1977oja}
+K.-T. Chen, {Iterated path integrals}, Bull. Am. Math. Soc. 83 (1977) 831--879.
+\newblock \href {https://doi.org/10.1090/S0002-9904-1977-14320-6}
+  {\path{doi:10.1090/S0002-9904-1977-14320-6}}.
+
+\bibitem{Liu:2022chg}
+X.~Liu, Y.-Q. Ma, {AMFlow: a Mathematica package for Feynman integrals
+  computation via Auxiliary Mass Flow } (1 2022).
+\newblock \href {http://arxiv.org/abs/2201.11669} {\path{arXiv:2201.11669}}.
+
+\bibitem{Chawdhry:2019bji}
+H.~A. Chawdhry, M.~L. Czakon, A.~Mitov, R.~Poncelet, {NNLO QCD corrections to
+  three-photon production at the LHC}, JHEP 02 (2020) 057.
+\newblock \href {http://arxiv.org/abs/1911.00479} {\path{arXiv:1911.00479}},
+  \href {https://doi.org/10.1007/JHEP02(2020)057}
+  {\path{doi:10.1007/JHEP02(2020)057}}.
+
+\bibitem{Bishara:2019iwh}
+F.~Bishara, M.~Montull, {(Machine) Learning amplitudes for faster event
+  generation} (12 2019).
+\newblock \href {http://arxiv.org/abs/1912.11055} {\path{arXiv:1912.11055}}.
+
+\bibitem{Winterhalder:2021ngy}
+R.~Winterhalder, V.~Magerya, E.~Villa, S.~P. Jones, M.~Kerner, A.~Butter,
+  G.~Heinrich, T.~Plehn, {Targeting multi-loop integrals with neural networks},
+  SciPost Phys. 12~(4) (2022) 129.
+\newblock \href {http://arxiv.org/abs/2112.09145} {\path{arXiv:2112.09145}},
+  \href {https://doi.org/10.21468/SciPostPhys.12.4.129}
+  {\path{doi:10.21468/SciPostPhys.12.4.129}}.
+
+\end{thebibliography}
